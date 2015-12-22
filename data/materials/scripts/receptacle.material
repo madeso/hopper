@@ -1,0 +1,13 @@
+
+material receptacle/receptacle
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.658824 0.658824 0.384314 1
+		}
+
+	}
+
+}

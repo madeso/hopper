@@ -1,0 +1,17 @@
+
+material barrel/cylinder2_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture barrel1.png
+			}
+		}
+
+	}
+
+}

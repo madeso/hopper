@@ -1,0 +1,18 @@
+
+material slab/dalle
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.666667 0.698039 0.690196 1
+
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+
+	}
+
+}

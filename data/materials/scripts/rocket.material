@@ -1,0 +1,18 @@
+
+material rocket/cylinder1_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture rocket.png
+			}
+		}
+
+	}
+
+}

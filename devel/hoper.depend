@@ -1,0 +1,3372 @@
+# depslib dependency file v1.0
+1187272380 source:u:\dev\hoper\devel\actor.cpp
+	"scenemanager.h"
+	"actor.h"
+	"logger.h"
+
+1201194725 u:\dev\hoper\devel\scenemanager.h
+	"singleton.h"
+	"camera.h"
+	"OgreOde_Core.h"
+	"OgreTerrainSceneManager.h"
+
+1168543384 u:\dev\hoper\devel\singleton.h
+	"stdlib.h"
+
+1185620040 u:\dev\hoper\devel\camera.h
+	"actor.h"
+
+1187272409 u:\dev\hoper\devel\actor.h
+	"Ogre.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogre.h
+	"OgrePrerequisites.h"
+	"OgreAnimation.h"
+	"OgreAnimationState.h"
+	"OgreAnimationTrack.h"
+	"OgreAny.h"
+	"OgreArchive.h"
+	"OgreArchiveManager.h"
+	"OgreAxisAlignedBox.h"
+	"OgreBillboardChain.h"
+	"OgreBillboardSet.h"
+	"OgreBone.h"
+	"OgreCamera.h"
+	"OgreConfigFile.h"
+	"OgreControllerManager.h"
+	"OgreDataStream.h"
+	"OgreEntity.h"
+	"OgreEventProcessor.h"
+	"OgreException.h"
+	"OgreFrustum.h"
+	"OgreGpuProgram.h"
+	"OgreGpuProgramManager.h"
+	"OgreHardwareBufferManager.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHardwareOcclusionQuery.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHighLevelGpuProgram.h"
+	"OgreHighLevelGpuProgramManager.h"
+	"OgreInput.h"
+	"OgreKeyFrame.h"
+	"OgreLight.h"
+	"OgreLogManager.h"
+	"OgreManualObject.h"
+	"OgreMaterial.h"
+	"OgreMaterialManager.h"
+	"OgreMaterialSerializer.h"
+	"OgreMath.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreMesh.h"
+	"OgreMeshManager.h"
+	"OgreMeshSerializer.h"
+	"OgreOverlay.h"
+	"OgreOverlayContainer.h"
+	"OgreOverlayElement.h"
+	"OgreOverlayManager.h"
+	"OgreParticleAffector.h"
+	"OgreParticleEmitter.h"
+	"OgreParticleSystemManager.h"
+	"OgrePass.h"
+	"OgrePatchMesh.h"
+	"OgrePatchSurface.h"
+	"OgrePlatformManager.h"
+	"OgreProfiler.h"
+	"OgreRadixSort.h"
+	"OgreRenderQueueInvocation.h"
+	"OgreRenderQueueListener.h"
+	"OgreRenderSystem.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderTexture.h"
+	"OgreRenderWindow.h"
+	"OgreResourceGroupManager.h"
+	"OgreRibbonTrail.h"
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgreSkeleton.h"
+	"OgreSkeletonInstance.h"
+	"OgreSkeletonManager.h"
+	"OgreSkeletonSerializer.h"
+	"OgreStaticGeometry.h"
+	"OgreString.h"
+	"OgreStringConverter.h"
+	"OgreStringVector.h"
+	"OgreSubEntity.h"
+	"OgreSubMesh.h"
+	"OgreTechnique.h"
+	"OgreTextureManager.h"
+	"OgreTextureManager.h"
+	"OgreTextureUnitState.h"
+	"OgreUserDefinedObject.h"
+	"OgreVector2.h"
+	"OgreViewport.h"
+	"OgreCompositor.h"
+	"OgreCompositorManager.h"
+	"OgreCompositorChain.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositionTechnique.h"
+	"OgreCompositionPass.h"
+	"OgreCompositionTargetPass.h"
+
+1169329728 u:\dev\ogresdkmingw125\include\ogreprerequisites.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryManager.h"
+
+1149863852 u:\dev\ogresdkmingw125\include\ogreplatform.h
+	"OgreConfig.h"
+	"config.h"
+	<SDL/SDL_main.h>
+
+1150994678 u:\dev\ogresdkmingw125\include\ogreconfig.h
+	"config.h"
+
+1146522490 u:\dev\ogresdkmingw125\include\ogrestdheaders.h
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cstdarg>
+	<cmath>
+	<vector>
+	<map>
+	<string>
+	<set>
+	<list>
+	<deque>
+	<queue>
+	<bitset>
+	<ext/hash_map>
+	<ext/hash_set>
+	<hash_set>
+	<hash_map>
+	<algorithm>
+	<functional>
+	<limits>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<sstream>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<unistd.h>
+	<dlfcn.h>
+	<unistd.h>
+	<sys/param.h>
+	<CoreFoundation/CoreFoundation.h>
+	<boost/thread/recursive_mutex.hpp>
+
+1146773116 u:\dev\ogresdkmingw125\include\ogrememorymanager.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryMacros.h"
+
+1133554082 u:\dev\ogresdkmingw125\include\ogrememorymacros.h
+
+1158373604 u:\dev\ogresdkmingw125\include\ogreanimation.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreIteratorWrappers.h"
+	"OgreAnimable.h"
+	"OgreAnimationTrack.h"
+
+1144276386 u:\dev\ogresdkmingw125\include\ogrestring.h
+	"OgrePrerequisites.h"
+	<ext/hash_map>
+
+1158167040 u:\dev\ogresdkmingw125\include\ogreiteratorwrappers.h
+	"OgrePrerequisites.h"
+
+1144274160 u:\dev\ogresdkmingw125\include\ogreanimable.h
+	"OgrePrerequisites.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+	"OgreException.h"
+	"OgreAny.h"
+
+1153058578 u:\dev\ogresdkmingw125\include\ogrevector2.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1169329728 u:\dev\ogresdkmingw125\include\ogremath.h
+	"OgrePrerequisites.h"
+
+1163188202 u:\dev\ogresdkmingw125\include\ogrevector3.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreQuaternion.h"
+
+1138673996 u:\dev\ogresdkmingw125\include\ogrequaternion.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1153058578 u:\dev\ogresdkmingw125\include\ogrevector4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1140291880 u:\dev\ogresdkmingw125\include\ogrecolourvalue.h
+	"OgrePrerequisites.h"
+
+1144554930 u:\dev\ogresdkmingw125\include\ogresharedptr.h
+	"OgrePrerequisites.h"
+
+1107539340 u:\dev\ogresdkmingw125\include\ogrestringvector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+
+1158167040 u:\dev\ogresdkmingw125\include\ogreexception.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogreany.h
+	"OgrePrerequisites.h"
+	"OgreException.h"
+	"OgreString.h"
+	<algorithm>
+	<typeinfo>
+
+1158373604 u:\dev\ogresdkmingw125\include\ogreanimationtrack.h
+	"OgrePrerequisites.h"
+	"OgreSimpleSpline.h"
+	"OgreRotationalSpline.h"
+	"OgreKeyFrame.h"
+	"OgreAnimable.h"
+	"OgrePose.h"
+
+1107539330 u:\dev\ogresdkmingw125\include\ogresimplespline.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1140291882 u:\dev\ogresdkmingw125\include\ogrematrix4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix3.h"
+	"OgreVector4.h"
+	"OgrePlane.h"
+
+1138673996 u:\dev\ogresdkmingw125\include\ogrematrix3.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1138673996 u:\dev\ogresdkmingw125\include\ogreplane.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1107539324 u:\dev\ogresdkmingw125\include\ogrerotationalspline.h
+	"OgrePrerequisites.h"
+	"OgreQuaternion.h"
+
+1158373604 u:\dev\ogresdkmingw125\include\ogrekeyframe.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreQuaternion.h"
+	"OgreAny.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreIteratorWrappers.h"
+
+1139604516 u:\dev\ogresdkmingw125\include\ogrehardwarevertexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgreColourValue.h"
+
+1107539278 u:\dev\ogresdkmingw125\include\ogrehardwarebuffer.h
+	"OgrePrerequisites.h"
+
+1158373606 u:\dev\ogresdkmingw125\include\ogrepose.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogreanimationstate.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreController.h"
+	"OgreIteratorWrappers.h"
+
+1137256330 u:\dev\ogresdkmingw125\include\ogrecontroller.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+
+1107539272 u:\dev\ogresdkmingw125\include\ogrearchive.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+
+1145661314 u:\dev\ogresdkmingw125\include\ogredatastream.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	<istream>
+
+1130360216 u:\dev\ogresdkmingw125\include\ogrearchivemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1140291882 u:\dev\ogresdkmingw125\include\ogreresourcemanager.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreResourceGroupManager.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+	"OgreScriptLoader.h"
+
+1137962292 u:\dev\ogresdkmingw125\include\ogreresource.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	"OgreStringInterface.h"
+
+1119198002 u:\dev\ogresdkmingw125\include\ogrestringinterface.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreCommon.h"
+
+1166195700 u:\dev\ogresdkmingw125\include\ogrecommon.h
+	<utility>
+
+1140291882 u:\dev\ogresdkmingw125\include\ogreresourcegroupmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreResource.h"
+	"OgreArchive.h"
+
+1107539330 u:\dev\ogresdkmingw125\include\ogresingleton.h
+	"OgrePrerequisites.h"
+
+1107602526 u:\dev\ogresdkmingw125\include\ogrescriptloader.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+
+1107539272 u:\dev\ogresdkmingw125\include\ogreaxisalignedbox.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1153058578 u:\dev\ogresdkmingw125\include\ogrebillboardchain.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+
+1153499308 u:\dev\ogresdkmingw125\include\ogremovableobject.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreShadowCaster.h"
+	"OgreFactoryObj.h"
+	"OgreAnimable.h"
+	"OgreAny.h"
+	"OgreUserDefinedObject.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogrerenderqueue.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1153058578 u:\dev\ogresdkmingw125\include\ogresphere.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1123531470 u:\dev\ogresdkmingw125\include\ogreshadowcaster.h
+	"OgrePrerequisites.h"
+	"OgreRenderable.h"
+
+1164210514 u:\dev\ogresdkmingw125\include\ogrerenderable.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreMatrix4.h"
+	"OgreMaterial.h"
+	"OgrePlane.h"
+	"OgreGpuProgram.h"
+	"OgreVector4.h"
+	"OgreException.h"
+
+1133475208 u:\dev\ogresdkmingw125\include\ogrerenderoperation.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+
+1139604518 u:\dev\ogresdkmingw125\include\ogrevertexindexdata.h
+	"OgrePrerequisites.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1107539278 u:\dev\ogresdkmingw125\include\ogrehardwareindexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+
+1144554930 u:\dev\ogresdkmingw125\include\ogrematerial.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+
+1133719350 u:\dev\ogresdkmingw125\include\ogreblendmode.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1164210510 u:\dev\ogresdkmingw125\include\ogregpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreSharedPtr.h"
+	"OgreIteratorWrappers.h"
+
+1107539276 u:\dev\ogresdkmingw125\include\ogrefactoryobj.h
+	"OgrePrerequisites.h"
+
+1120250532 u:\dev\ogresdkmingw125\include\ogreuserdefinedobject.h
+	"OgrePrerequisites.h"
+
+1140291880 u:\dev\ogresdkmingw125\include\ogrebillboardset.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreRadixSort.h"
+	"OgreCommon.h"
+
+1133284050 u:\dev\ogresdkmingw125\include\ogreradixsort.h
+	"OgrePrerequisites.h"
+
+1146773112 u:\dev\ogresdkmingw125\include\ogrebone.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+
+1150679204 u:\dev\ogresdkmingw125\include\ogrenode.h
+	"OgrePrerequisites.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreQuaternion.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreIteratorWrappers.h"
+
+1140291880 u:\dev\ogresdkmingw125\include\ogrecamera.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreMatrix4.h"
+	"OgreVector3.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreCommon.h"
+	"OgreFrustum.h"
+	"OgreRay.h"
+
+1166195702 u:\dev\ogresdkmingw125\include\ogrefrustum.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexIndexData.h"
+	"OgreMovablePlane.h"
+
+1138673996 u:\dev\ogresdkmingw125\include\ogremovableplane.h
+	"OgrePrerequisites.h"
+	"OgrePlane.h"
+	"OgreMovableObject.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogreray.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgrePlaneBoundedVolume.h"
+
+1107539308 u:\dev\ogresdkmingw125\include\ogreplaneboundedvolume.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreMath.h"
+	"OgrePlane.h"
+
+1111862664 u:\dev\ogresdkmingw125\include\ogreconfigfile.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+	"OgreIteratorWrappers.h"
+	"OgreDataStream.h"
+
+1140962472 u:\dev\ogresdkmingw125\include\ogrecontrollermanager.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreSingleton.h"
+	"OgreController.h"
+	"OgrePredefinedControllers.h"
+	"OgreTextureUnitState.h"
+	"OgreSharedPtr.h"
+
+1139107016 u:\dev\ogresdkmingw125\include\ogrepredefinedcontrollers.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreController.h"
+	"OgreFrameListener.h"
+	"OgreGpuProgram.h"
+
+1107539276 u:\dev\ogresdkmingw125\include\ogreframelistener.h
+	"OgrePrerequisites.h"
+
+1163188202 u:\dev\ogresdkmingw125\include\ogretextureunitstate.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreBlendMode.h"
+	"OgreMatrix4.h"
+	"OgreIteratorWrappers.h"
+	"OgreString.h"
+	"OgreTexture.h"
+
+1144554930 u:\dev\ogresdkmingw125\include\ogretexture.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreResource.h"
+	"OgreImage.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogreimage.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgrePixelFormat.h"
+	"OgreDataStream.h"
+
+1153058578 u:\dev\ogresdkmingw125\include\ogrepixelformat.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+
+1161632114 u:\dev\ogresdkmingw125\include\ogreentity.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreHardwareBufferManager.h"
+	"OgreMesh.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogrehardwarebuffermanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1158167040 u:\dev\ogresdkmingw125\include\ogremesh.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreVertexIndexData.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreIteratorWrappers.h"
+	"OgreProgressiveMesh.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreSkeleton.h"
+	"OgreAnimationTrack.h"
+	"OgrePose.h"
+
+1107539342 u:\dev\ogresdkmingw125\include\ogrevertexboneassignment.h
+	"OgrePrerequisites.h"
+
+1118052316 u:\dev\ogresdkmingw125\include\ogreprogressivemesh.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreRenderOperation.h"
+
+1145661314 u:\dev\ogresdkmingw125\include\ogreskeleton.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+
+1107539276 u:\dev\ogresdkmingw125\include\ogreeventprocessor.h
+	<list>
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreFrameListener.h"
+	"OgreMouseTarget.h"
+	"OgreKeyTarget.h"
+	"OgreMouseMotionTarget.h"
+
+1111862664 u:\dev\ogresdkmingw125\include\ogremousetarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1137256330 u:\dev\ogresdkmingw125\include\ogrepositiontarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1137256330 u:\dev\ogresdkmingw125\include\ogreeventtarget.h
+	"OgrePrerequisites.h"
+
+1111862664 u:\dev\ogresdkmingw125\include\ogrekeytarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1111862664 u:\dev\ogresdkmingw125\include\ogremousemotiontarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1107539278 u:\dev\ogresdkmingw125\include\ogregpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgreGpuProgram.h"
+	"OgreSingleton.h"
+
+1125412772 u:\dev\ogresdkmingw125\include\ogrehardwarepixelbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgrePixelFormat.h"
+	"OgreImage.h"
+
+1149355922 u:\dev\ogresdkmingw125\include\ogrehardwareocclusionquery.h
+	"OgrePrerequisites.h"
+
+1144554930 u:\dev\ogresdkmingw125\include\ogrehighlevelgpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+
+1144274160 u:\dev\ogresdkmingw125\include\ogrehighlevelgpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreException.h"
+	"OgreHighLevelGpuProgram.h"
+
+1130774280 u:\dev\ogresdkmingw125\include\ogreinput.h
+	"OgrePrerequisites.h"
+
+1139448882 u:\dev\ogresdkmingw125\include\ogrelight.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgrePlaneBoundedVolume.h"
+
+1164210510 u:\dev\ogresdkmingw125\include\ogrelogmanager.h
+	"OgrePrerequisites.h"
+	"OgreLog.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+
+1164210510 u:\dev\ogresdkmingw125\include\ogrelog.h
+	"OgrePrerequisites.h"
+
+1131283364 u:\dev\ogresdkmingw125\include\ogremanualobject.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreResourceGroupManager.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogrematerialmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreResourceManager.h"
+	"OgreMaterial.h"
+	"OgreStringVector.h"
+	"OgreMaterialSerializer.h"
+
+1137256330 u:\dev\ogresdkmingw125\include\ogrematerialserializer.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreBlendMode.h"
+	"OgreTextureUnitState.h"
+	"OgreGpuProgram.h"
+	"OgreStringVector.h"
+
+1137962292 u:\dev\ogresdkmingw125\include\ogremeshmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreVector3.h"
+	"OgreHardwareBuffer.h"
+	"OgreMesh.h"
+	"OgrePatchMesh.h"
+
+1144554930 u:\dev\ogresdkmingw125\include\ogrepatchmesh.h
+	"OgrePrerequisites.h"
+	"OgreMesh.h"
+	"OgrePatchSurface.h"
+
+1107539308 u:\dev\ogresdkmingw125\include\ogrepatchsurface.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreRenderOperation.h"
+	"OgreAxisAlignedBox.h"
+
+1139604516 u:\dev\ogresdkmingw125\include\ogremeshserializer.h
+	"OgrePrerequisites.h"
+	"OgreMeshSerializerImpl.h"
+	"OgreSerializer.h"
+
+1139604516 u:\dev\ogresdkmingw125\include\ogremeshserializerimpl.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSerializer.h"
+	"OgreMaterial.h"
+	"OgreMesh.h"
+	"OgreEdgeListBuilder.h"
+
+1139604518 u:\dev\ogresdkmingw125\include\ogreserializer.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+
+1107539274 u:\dev\ogresdkmingw125\include\ogreedgelistbuilder.h
+	"OgrePrerequisites.h"
+	"OgreVector4.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreRenderOperation.h"
+
+1143389648 u:\dev\ogresdkmingw125\include\ogreoverlay.h
+	"OgrePrerequisites.h"
+	"OgreSceneNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreMatrix4.h"
+
+1158167040 u:\dev\ogresdkmingw125\include\ogrescenenode.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreAxisAlignedBox.h"
+
+1121030600 u:\dev\ogresdkmingw125\include\ogreoverlaycontainer.h
+	"OgrePrerequisites.h"
+	"OgreOverlayElement.h"
+	"OgreIteratorWrappers.h"
+
+1161358956 u:\dev\ogresdkmingw125\include\ogreoverlayelement.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreStringInterface.h"
+	"OgreOverlayElementCommands.h"
+	"OgreColourValue.h"
+	"OgreRectangle.h"
+
+1107539304 u:\dev\ogresdkmingw125\include\ogreoverlayelementcommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107539310 u:\dev\ogresdkmingw125\include\ogrerectangle.h
+	"OgrePrerequisites.h"
+
+1140291882 u:\dev\ogresdkmingw125\include\ogreoverlaymanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreStringVector.h"
+	"OgreOverlay.h"
+	"OgreScriptLoader.h"
+
+1114805286 u:\dev\ogresdkmingw125\include\ogreparticleaffector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringInterface.h"
+
+1114805286 u:\dev\ogresdkmingw125\include\ogreparticleemitter.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringInterface.h"
+	"OgreParticleEmitterCommands.h"
+	"OgreParticle.h"
+
+1107539304 u:\dev\ogresdkmingw125\include\ogreparticleemittercommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107539304 u:\dev\ogresdkmingw125\include\ogreparticle.h
+	"OgrePrerequisites.h"
+	"OgreBillboard.h"
+
+1139703006 u:\dev\ogresdkmingw125\include\ogrebillboard.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+
+1149862532 u:\dev\ogresdkmingw125\include\ogreparticlesystemmanager.h
+	"OgrePrerequisites.h"
+	"OgreParticleSystem.h"
+	"OgreFrameListener.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+	"OgreScriptLoader.h"
+	"OgreResourceGroupManager.h"
+
+1153546348 u:\dev\ogresdkmingw125\include\ogreparticlesystem.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreParticleIterator.h"
+	"OgreStringInterface.h"
+	"OgreMovableObject.h"
+	"OgreRadixSort.h"
+	"OgreController.h"
+
+1107539306 u:\dev\ogresdkmingw125\include\ogreparticleiterator.h
+	"OgrePrerequisites.h"
+
+1164226260 u:\dev\ogresdkmingw125\include\ogrepass.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgreLight.h"
+
+1137256330 u:\dev\ogresdkmingw125\include\ogreplatformmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+
+1107539310 u:\dev\ogresdkmingw125\include\ogreprofiler.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreOverlay.h"
+
+1138673996 u:\dev\ogresdkmingw125\include\ogrerenderqueueinvocation.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreIteratorWrappers.h"
+
+1142164554 u:\dev\ogresdkmingw125\include\ogrerenderqueuesortinggrouping.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreRadixSort.h"
+
+1142104038 u:\dev\ogresdkmingw125\include\ogretechnique.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgrePass.h"
+
+1137256330 u:\dev\ogresdkmingw125\include\ogrerenderqueuelistener.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+
+1169329728 u:\dev\ogresdkmingw125\include\ogrerendersystem.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureUnitState.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreRenderSystemCapabilities.h"
+	"OgreRenderTarget.h"
+	"OgreRenderTexture.h"
+	"OgreFrameListener.h"
+	"OgreConfigOptionMap.h"
+	"OgreGpuProgram.h"
+	"OgrePlane.h"
+	"OgreIteratorWrappers.h"
+
+1163188202 u:\dev\ogresdkmingw125\include\ogrerendersystemcapabilities.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1138673996 u:\dev\ogresdkmingw125\include\ogrerendertarget.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureManager.h"
+	"OgreViewport.h"
+	"OgreTimer.h"
+
+1142104038 u:\dev\ogresdkmingw125\include\ogretexturemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreTexture.h"
+	"OgreSingleton.h"
+
+1141609740 u:\dev\ogresdkmingw125\include\ogreviewport.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+
+1120250532 u:\dev\ogresdkmingw125\include\ogretimer.h
+	"OgrePrerequisites.h"
+
+1122482340 u:\dev\ogresdkmingw125\include\ogrerendertexture.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1107539274 u:\dev\ogresdkmingw125\include\ogreconfigoptionmap.h
+	"OgrePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreString.h"
+
+1138673996 u:\dev\ogresdkmingw125\include\ogrerendertargetlistener.h
+	"OgrePrerequisites.h"
+
+1119384792 u:\dev\ogresdkmingw125\include\ogrerenderwindow.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1159465402 u:\dev\ogresdkmingw125\include\ogreribbontrail.h
+	"OgrePrerequisites.h"
+	"OgreBillboardChain.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreFrameListener.h"
+	"OgreControllerManager.h"
+
+1163276938 u:\dev\ogresdkmingw125\include\ogreroot.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreResourceGroupManager.h"
+	<exception>
+
+1140291882 u:\dev\ogresdkmingw125\include\ogrescenemanagerenumerator.h
+	"OgrePrerequisites.h"
+	"OgreSceneManager.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+
+1156526130 u:\dev\ogresdkmingw125\include\ogrescenemanager.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSceneNode.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+	"OgreSceneQuery.h"
+	"OgreAutoParamDataSource.h"
+	"OgreAnimationState.h"
+	"OgreRenderQueue.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreRectangle2D.h"
+	"OgrePixelFormat.h"
+	"OgreResourceGroupManager.h"
+	"OgreTexture.h"
+
+1123531470 u:\dev\ogresdkmingw125\include\ogrescenequery.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreRay.h"
+	"OgreRenderOperation.h"
+	"OgrePlaneBoundedVolume.h"
+
+1161358956 u:\dev\ogresdkmingw125\include\ogreautoparamdatasource.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreMatrix4.h"
+	"OgreVector4.h"
+	"OgreLight.h"
+	"OgreColourValue.h"
+
+1107539310 u:\dev\ogresdkmingw125\include\ogrerectangle2d.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1116108158 u:\dev\ogresdkmingw125\include\ogresimplerenderable.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMaterial.h"
+
+1153499308 u:\dev\ogresdkmingw125\include\ogreskeletoninstance.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+
+1107539330 u:\dev\ogresdkmingw125\include\ogreskeletonmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1139604518 u:\dev\ogresdkmingw125\include\ogreskeletonserializer.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+	"OgreSerializer.h"
+
+1149355922 u:\dev\ogresdkmingw125\include\ogrestaticgeometry.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+
+1169329728 u:\dev\ogresdkmingw125\include\ogrestringconverter.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+
+1164210516 u:\dev\ogresdkmingw125\include\ogresubentity.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreHardwareBufferManager.h"
+
+1132174348 u:\dev\ogresdkmingw125\include\ogresubmesh.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+	"OgreMaterial.h"
+	"OgreRenderOperation.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreProgressiveMesh.h"
+	"OgreAnimationTrack.h"
+
+1144554930 u:\dev\ogresdkmingw125\include\ogrecompositor.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreResource.h"
+
+1153058578 u:\dev\ogresdkmingw125\include\ogrecompositormanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreCompositor.h"
+	"OgreRectangle2D.h"
+	"OgreCompositorSerializer.h"
+
+1144342046 u:\dev\ogresdkmingw125\include\ogrecompositorserializer.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+
+1166195702 u:\dev\ogresdkmingw125\include\ogrecompositorchain.h
+	"OgrePrerequisites.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderQueueListener.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositor.h"
+
+1158167040 u:\dev\ogresdkmingw125\include\ogrecompositorinstance.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreTexture.h"
+	"OgreRenderQueue.h"
+
+1142104038 u:\dev\ogresdkmingw125\include\ogrecompositiontechnique.h
+	"OgrePrerequisites.h"
+	"OgrePixelFormat.h"
+	"OgreIteratorWrappers.h"
+
+1149862532 u:\dev\ogresdkmingw125\include\ogrecompositionpass.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreRenderSystem.h"
+	"OgreRenderQueue.h"
+
+1149862532 u:\dev\ogresdkmingw125\include\ogrecompositiontargetpass.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1112015078 u:\dev\ogresdkmingw125\include\ogreode_core.h
+	"OgreOdePreReqs.h"
+	"OgreOdeUtility.h"
+	"OgreOdeWorld.h"
+	"OgreOdeBody.h"
+	"OgreOdeMass.h"
+	"OgreOdeJoint.h"
+	"OgreOdeSpace.h"
+	"OgreOdeGeometry.h"
+	"OgreOdeCollision.h"
+	"OgreOdeStepper.h"
+	"OgreOdeEntityInformer.h"
+	"OgreOdeDebugObject.h"
+
+1156777940 u:\dev\ogresdkmingw125\include\ogreodeprereqs.h
+	"Ogre.h"
+	"OgreNoMemoryMacros.h"
+	"ode/ode.h"
+	"OgreMemoryMacros.h"
+
+1107539304 u:\dev\ogresdkmingw125\include\ogrenomemorymacros.h
+
+1083352298 u:\dev\ogresdkmingw125\include\ode\ode.h
+	<ode/config.h>
+	<ode/compatibility.h>
+	<ode/common.h>
+	<ode/contact.h>
+	<ode/error.h>
+	<ode/memory.h>
+	<ode/odemath.h>
+	<ode/matrix.h>
+	<ode/timer.h>
+	<ode/rotation.h>
+	<ode/mass.h>
+	<ode/misc.h>
+	<ode/objects.h>
+	<ode/odecpp.h>
+	<ode/collision_space.h>
+	<ode/collision.h>
+	<ode/odecpp_collision.h>
+	<ode/export-dif.h>
+
+1156154324 u:\dev\ogresdkmingw125\ode\include\ode\config.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<malloc.h>
+	<math.h>
+	<string.h>
+	<float.h>
+	<alloca.h>
+
+1142928480 u:\dev\ogresdkmingw125\ode\include\ode\compatibility.h
+
+1156142728 u:\dev\ogresdkmingw125\ode\include\ode\common.h
+	<ode/config.h>
+	<ode/error.h>
+	<math.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\error.h
+	<ode/config.h>
+
+1147351512 u:\dev\ogresdkmingw125\ode\include\ode\contact.h
+	<ode/common.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\memory.h
+	"ode/config.h"
+
+1156154310 u:\dev\ogresdkmingw125\ode\include\ode\odemath.h
+	<ode/common.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\matrix.h
+	<ode/common.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\timer.h
+	<ode/config.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\rotation.h
+	<ode/common.h>
+	<ode/compatibility.h>
+
+1152194112 u:\dev\ogresdkmingw125\ode\include\ode\mass.h
+	<ode/common.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\misc.h
+	<ode/common.h>
+
+1157113852 u:\dev\ogresdkmingw125\ode\include\ode\objects.h
+	<ode/common.h>
+	<ode/mass.h>
+	<ode/contact.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\odecpp.h
+	<ode/error.h>
+
+1152194112 u:\dev\ogresdkmingw125\ode\include\ode\collision_space.h
+	<ode/common.h>
+
+1156142728 u:\dev\ogresdkmingw125\ode\include\ode\collision.h
+	<ode/common.h>
+	<ode/collision_space.h>
+	<ode/contact.h>
+	"collision_trimesh.h"
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\collision_trimesh.h
+
+1142928480 u:\dev\ogresdkmingw125\ode\include\ode\odecpp_collision.h
+	<ode/error.h>
+
+1145711436 u:\dev\ogresdkmingw125\ode\include\ode\export-dif.h
+	<ode/common.h>
+
+1098865520 u:\dev\ogresdkmingw125\include\ogreodeutility.h
+	"OgreOdePreReqs.h"
+
+1156790060 u:\dev\ogresdkmingw125\include\ogreodeworld.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+	"OgreSingleton.h"
+	<map>
+
+1154520708 u:\dev\ogresdkmingw125\include\ogreodemaintainedlist.h
+	"OgreOdePreReqs.h"
+
+1157532274 u:\dev\ogresdkmingw125\include\ogreodebody.h
+	"OgreOdePreReqs.h"
+
+1098865520 u:\dev\ogresdkmingw125\include\ogreodemass.h
+	"OgreOdePreReqs.h"
+
+1160304634 u:\dev\ogresdkmingw125\include\ogreodejoint.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+
+1151844780 u:\dev\ogresdkmingw125\include\ogreodespace.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+
+1157008572 u:\dev\ogresdkmingw125\include\ogreodegeometry.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+
+1156777944 u:\dev\ogresdkmingw125\include\ogreodecollision.h
+	"OgreOdePreReqs.h"
+
+1154520716 u:\dev\ogresdkmingw125\include\ogreodestepper.h
+	"OgreOdePreReqs.h"
+
+1157480984 u:\dev\ogresdkmingw125\include\ogreodeentityinformer.h
+	"OgreOdePreReqs.h"
+
+1156964368 u:\dev\ogresdkmingw125\include\ogreodedebugobject.h
+	"OgreOdePreReqs.h"
+
+1140291888 u:\dev\ogresdkmingw125\include\ogreterrainscenemanager.h
+	"OgreTerrainPrerequisites.h"
+	"OgreOctreeSceneManager.h"
+	"OgreOctreeSceneQuery.h"
+	"OgreTerrainRenderable.h"
+	"OgreTerrainPageSource.h"
+	"OgreIteratorWrappers.h"
+
+1146155400 u:\dev\ogresdkmingw125\include\ogreterrainprerequisites.h
+	"OgrePrerequisites.h"
+
+1169329734 u:\dev\ogresdkmingw125\include\ogreoctreescenemanager.h
+	"OgreSceneManager.h"
+	"OgreRenderOperation.h"
+	"OgreSphere.h"
+	<list>
+	<algorithm>
+	<OgreOctree.h>
+
+1169329734 u:\dev\ogresdkmingw125\include\ogreoctree.h
+	<OgreAxisAlignedBox.h>
+	<OgreWireBoundingBox.h>
+	<list>
+
+1107539342 u:\dev\ogresdkmingw125\include\ogrewireboundingbox.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1169329734 u:\dev\ogresdkmingw125\include\ogreoctreescenequery.h
+	"OgreTerrainPrerequisites.h"
+	<OgreSceneManager.h>
+
+1169329734 u:\dev\ogresdkmingw125\include\ogreterrainrenderable.h
+	"OgreTerrainPrerequisites.h"
+	<OgreRenderable.h>
+	<OgreMovableObject.h>
+	<OgreAxisAlignedBox.h>
+	<OgreString.h>
+	<OgreHardwareBufferManager.h>
+	<vector>
+
+1140291888 u:\dev\ogresdkmingw125\include\ogreterrainpagesource.h
+	"OgreTerrainPrerequisites.h"
+	"OgreSingleton.h"
+
+1187099353 u:\dev\hoper\devel\logger.h
+	<stdio.h>
+	<stdarg.h>
+	"singleton.h"
+
+1201735904 source:u:\dev\hoper\devel\camera.cpp
+	"Ogre.h"
+	"math.h"
+	"screen.h"
+	"camera.h"
+	"logger.h"
+
+1185620674 u:\dev\hoper\devel\screen.h
+	"Ogre.h"
+	"singleton.h"
+
+1183647512 source:u:\dev\hoper\devel\debugship.cpp
+	"debugship.h"
+
+1185620064 u:\dev\hoper\devel\debugship.h
+	"ship.h"
+
+1202505449 u:\dev\hoper\devel\ship.h
+	"physactor.h"
+	"controllable.h"
+	"dynamic.h"
+	"OgreOde_Core.h"
+	"pointlight.h"
+	"sound.h"
+
+1185620494 u:\dev\hoper\devel\physactor.h
+	"actor.h"
+	"OgreOde_Core.h"
+
+1185620056 u:\dev\hoper\devel\controllable.h
+
+1185620090 u:\dev\hoper\devel\dynamic.h
+
+1185620708 u:\dev\hoper\devel\spotlight.h
+	"Ogre.h"
+	"scenemanager.h"
+
+1201729986 u:\dev\hoper\devel\soundmanager.h
+	"singleton.h"
+	"ogre.h"
+	"AL/alut.h"
+
+1183048748 source:u:\dev\hoper\devel\delay.cpp
+	"delay.h"
+
+1185620072 u:\dev\hoper\devel\delay.h
+	"Ogre.h"
+
+1202477630 source:u:\dev\hoper\devel\spotlight.cpp
+	"spotlight.h"
+
+1188905394 source:u:\dev\hoper\devel\emitter.cpp
+	"emitter.h"
+	"logger.h"
+
+1188905418 u:\dev\hoper\devel\emitter.h
+	"Ogre.h"
+	"scenemanager.h"
+
+1203059821 source:u:\dev\hoper\devel\game.cpp
+	"game.h"
+	"math.h"
+	"logger.h"
+	"screen.h"
+	"gameconstants.h"
+	<vector>
+
+1201829169 u:\dev\hoper\devel\game.h
+	"gamepart.h"
+	"OgreOde_core.h"
+	"level.h"
+	"landingpad.h"
+	"ring.h"
+	"ship.h"
+	"ground.h"
+	"inputmanager.h"
+	"scenemanager.h"
+	"timemanager.h"
+	"camera.h"
+	"interfacegame.h"
+	"sound.h"
+	"soundmanager.h"
+	"emitter.h"
+	"delay.h"
+
+1200584869 u:\dev\hoper\devel\gamepart.h
+
+1201617220 u:\dev\hoper\devel\level.h
+	"ground.h"
+	"ship.h"
+	"debugship.h"
+	"sun.h"
+	"landingpad.h"
+	"ring.h"
+	"fan.h"
+	"scenemanager.h"
+	"clouds.h"
+	"objecttypes.h"
+	<vector>
+
+1185620140 u:\dev\hoper\devel\ground.h
+	"scenemanager.h"
+
+1201215577 u:\dev\hoper\devel\light.h
+	"actor.h"
+	"Ogre.h"
+
+1185620290 u:\dev\hoper\devel\landingpad.h
+	"physactor.h"
+	"pointlight.h"
+	"spotlight.h"
+
+1185620508 u:\dev\hoper\devel\pointlight.h
+	"Ogre.h"
+	"scenemanager.h"
+
+1187274296 u:\dev\hoper\devel\ring.h
+	"physactor.h"
+
+1202324965 u:\dev\hoper\devel\inputmanager.h
+	"singleton.h"
+	"Ogre.h"
+	"delay.h"
+
+1183849658 u:\dev\hoper\devel\userinterface.h
+	"Ogre.h"
+	"singleton.h"
+
+1200584801 source:u:\dev\hoper\devel\gamemanager.cpp
+	"gamemanager.h"
+	"gameplaylanding.h"
+	"gameplayracing.h"
+	"gameplaytutorial.h"
+	"hopedit.h"
+	"menu.h"
+	"inputmanager.h"
+	"logger.h"
+	"screen.h"
+	"sqlite3x.hpp"
+
+1185620120 u:\dev\hoper\devel\gamemanager.h
+	"gamepart.h"
+
+1200491142 source:u:\dev\hoper\devel\ground.cpp
+	"ground.h"
+	"logger.h"
+	"resourcemanager.h"
+
+1185620582 u:\dev\hoper\devel\resourcemanager.h
+	"Ogre.h"
+	"soundmanager.h"
+	"singleton.h"
+	"resource.h"
+	<map>
+	<string>
+
+1183972902 source:u:\dev\hoper\devel\hoper.cpp
+	<stdlib.h>
+	"screen.h"
+	"inputmanager.h"
+	"gamemanager.h"
+	"scenemanager.h"
+	"logger.h"
+	"Ogre.h"
+	"resourcemanager.h"
+	<windows.h>
+
+1202324955 source:u:\dev\hoper\devel\inputmanager.cpp
+	"inputmanager.h"
+	"screen.h"
+	"logger.h"
+
+1202161500 source:u:\dev\hoper\devel\landingpad.cpp
+	"landingpad.h"
+	"logger.h"
+
+1202490740 source:u:\dev\hoper\devel\level.cpp
+	"level.h"
+	"logger.h"
+	"sqlite3x.hpp"
+
+1202477188 source:u:\dev\hoper\devel\light.cpp
+	"light.h"
+	"scenemanager.h"
+	"logger.h"
+
+1187099308 source:u:\dev\hoper\devel\logger.cpp
+	"logger.h"
+
+1187358366 source:u:\dev\hoper\devel\physactor.cpp
+	"physactor.h"
+	"scenemanager.h"
+	"logger.h"
+
+1202477614 source:u:\dev\hoper\devel\pointlight.cpp
+	"pointlight.h"
+	"logger.h"
+
+1201619766 source:u:\dev\hoper\devel\resourcemanager.cpp
+	"resourcemanager.h"
+	"logger.h"
+
+1187275340 source:u:\dev\hoper\devel\ring.cpp
+	"ring.h"
+
+1201296133 source:u:\dev\hoper\devel\scenemanager.cpp
+	"scenemanager.h"
+	"screen.h"
+	"logger.h"
+	"gameconstants.h"
+
+1183984192 source:u:\dev\hoper\devel\screen.cpp
+	"screen.h"
+	"logger.h"
+
+1203427937 source:u:\dev\hoper\devel\ship.cpp
+	"ship.h"
+	"scenemanager.h"
+	"logger.h"
+	"gameconstants.h"
+
+1201834432 source:u:\dev\hoper\devel\soundmanager.cpp
+	"soundmanager.h"
+
+1183850115 source:u:\dev\hoper\devel\userinterface.cpp
+	"userinterface.h"
+	"Ogre.h"
+	<OgreTextAreaOverlayElement.h>
+	"scenemanager.h"
+	"logger.h"
+
+1161358956 u:\dev\ogresdkmingw125\include\ogretextareaoverlayelement.h
+	"OgreOverlayElement.h"
+	"OgreFont.h"
+
+1144554930 u:\dev\ogresdkmingw125\include\ogrefont.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreTexture.h"
+	"OgreMaterial.h"
+
+1202234845 u:\dev\hoper\devel\gameconstants.h
+
+1187271234 source:u:\dev\hoper\devel\hopedit.cpp
+	"hopedit.h"
+	"logger.h"
+	"sqlite3x.hpp"
+	"gameconstants.h"
+	<sstream>
+	<iostream>
+
+1186495166 u:\dev\hoper\devel\hopedit.h
+	"inputmanager.h"
+	"camera.h"
+	"gamepart.h"
+	"scenemanager.h"
+	"level.h"
+	"soundmanager.h"
+	"interfaceeditor.h"
+	"gamemanager.h"
+
+1187275980 c:\devel\hoper\devel\actor.cpp
+	"scenemanager.h"
+	"actor.h"
+	"logger.h"
+
+1185624262 c:\devel\hoper\devel\scenemanager.h
+	"singleton.h"
+	"camera.h"
+	"OgreOde_Core.h"
+	"OgreTerrainSceneManager.h"
+
+1168546984 c:\devel\hoper\devel\singleton.h
+	"stdlib.h"
+
+1185623640 c:\devel\hoper\devel\camera.h
+	"actor.h"
+
+1187276009 c:\devel\hoper\devel\actor.h
+	"Ogre.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogre.h
+	"OgrePrerequisites.h"
+	"OgreAnimation.h"
+	"OgreAnimationState.h"
+	"OgreAnimationTrack.h"
+	"OgreAny.h"
+	"OgreArchive.h"
+	"OgreArchiveManager.h"
+	"OgreAxisAlignedBox.h"
+	"OgreBillboardChain.h"
+	"OgreBillboardSet.h"
+	"OgreBone.h"
+	"OgreCamera.h"
+	"OgreConfigFile.h"
+	"OgreControllerManager.h"
+	"OgreDataStream.h"
+	"OgreEntity.h"
+	"OgreEventProcessor.h"
+	"OgreException.h"
+	"OgreFrustum.h"
+	"OgreGpuProgram.h"
+	"OgreGpuProgramManager.h"
+	"OgreHardwareBufferManager.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHardwareOcclusionQuery.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHighLevelGpuProgram.h"
+	"OgreHighLevelGpuProgramManager.h"
+	"OgreInput.h"
+	"OgreKeyFrame.h"
+	"OgreLight.h"
+	"OgreLogManager.h"
+	"OgreManualObject.h"
+	"OgreMaterial.h"
+	"OgreMaterialManager.h"
+	"OgreMaterialSerializer.h"
+	"OgreMath.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreMesh.h"
+	"OgreMeshManager.h"
+	"OgreMeshSerializer.h"
+	"OgreOverlay.h"
+	"OgreOverlayContainer.h"
+	"OgreOverlayElement.h"
+	"OgreOverlayManager.h"
+	"OgreParticleAffector.h"
+	"OgreParticleEmitter.h"
+	"OgreParticleSystemManager.h"
+	"OgrePass.h"
+	"OgrePatchMesh.h"
+	"OgrePatchSurface.h"
+	"OgrePlatformManager.h"
+	"OgreProfiler.h"
+	"OgreRadixSort.h"
+	"OgreRenderQueueInvocation.h"
+	"OgreRenderQueueListener.h"
+	"OgreRenderSystem.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderTexture.h"
+	"OgreRenderWindow.h"
+	"OgreResourceGroupManager.h"
+	"OgreRibbonTrail.h"
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgreSkeleton.h"
+	"OgreSkeletonInstance.h"
+	"OgreSkeletonManager.h"
+	"OgreSkeletonSerializer.h"
+	"OgreStaticGeometry.h"
+	"OgreString.h"
+	"OgreStringConverter.h"
+	"OgreStringVector.h"
+	"OgreSubEntity.h"
+	"OgreSubMesh.h"
+	"OgreTechnique.h"
+	"OgreTextureManager.h"
+	"OgreTextureManager.h"
+	"OgreTextureUnitState.h"
+	"OgreUserDefinedObject.h"
+	"OgreVector2.h"
+	"OgreViewport.h"
+	"OgreCompositor.h"
+	"OgreCompositorManager.h"
+	"OgreCompositorChain.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositionTechnique.h"
+	"OgreCompositionPass.h"
+	"OgreCompositionTargetPass.h"
+
+1169333328 c:\devel\sdk\ogresdkmingw125\include\ogreprerequisites.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryManager.h"
+
+1149867452 c:\devel\sdk\ogresdkmingw125\include\ogreplatform.h
+	"OgreConfig.h"
+	"config.h"
+	<SDL/SDL_main.h>
+
+1150998278 c:\devel\sdk\ogresdkmingw125\include\ogreconfig.h
+	"config.h"
+
+1146526090 c:\devel\sdk\ogresdkmingw125\include\ogrestdheaders.h
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cstdarg>
+	<cmath>
+	<vector>
+	<map>
+	<string>
+	<set>
+	<list>
+	<deque>
+	<queue>
+	<bitset>
+	<ext/hash_map>
+	<ext/hash_set>
+	<hash_set>
+	<hash_map>
+	<algorithm>
+	<functional>
+	<limits>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<sstream>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<unistd.h>
+	<dlfcn.h>
+	<unistd.h>
+	<sys/param.h>
+	<CoreFoundation/CoreFoundation.h>
+	<boost/thread/recursive_mutex.hpp>
+
+1146776716 c:\devel\sdk\ogresdkmingw125\include\ogrememorymanager.h
+	"OgrePlatform.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryMacros.h"
+
+1133557682 c:\devel\sdk\ogresdkmingw125\include\ogrememorymacros.h
+
+1158377204 c:\devel\sdk\ogresdkmingw125\include\ogreanimation.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreIteratorWrappers.h"
+	"OgreAnimable.h"
+	"OgreAnimationTrack.h"
+
+1144279986 c:\devel\sdk\ogresdkmingw125\include\ogrestring.h
+	"OgrePrerequisites.h"
+	<ext/hash_map>
+
+1158170640 c:\devel\sdk\ogresdkmingw125\include\ogreiteratorwrappers.h
+	"OgrePrerequisites.h"
+
+1144277760 c:\devel\sdk\ogresdkmingw125\include\ogreanimable.h
+	"OgrePrerequisites.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+	"OgreException.h"
+	"OgreAny.h"
+
+1153062178 c:\devel\sdk\ogresdkmingw125\include\ogrevector2.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1169333328 c:\devel\sdk\ogresdkmingw125\include\ogremath.h
+	"OgrePrerequisites.h"
+
+1163191802 c:\devel\sdk\ogresdkmingw125\include\ogrevector3.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreQuaternion.h"
+
+1138677596 c:\devel\sdk\ogresdkmingw125\include\ogrequaternion.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1153062178 c:\devel\sdk\ogresdkmingw125\include\ogrevector4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1140295480 c:\devel\sdk\ogresdkmingw125\include\ogrecolourvalue.h
+	"OgrePrerequisites.h"
+
+1144558530 c:\devel\sdk\ogresdkmingw125\include\ogresharedptr.h
+	"OgrePrerequisites.h"
+
+1107542940 c:\devel\sdk\ogresdkmingw125\include\ogrestringvector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+
+1158170640 c:\devel\sdk\ogresdkmingw125\include\ogreexception.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogreany.h
+	"OgrePrerequisites.h"
+	"OgreException.h"
+	"OgreString.h"
+	<algorithm>
+	<typeinfo>
+
+1158377204 c:\devel\sdk\ogresdkmingw125\include\ogreanimationtrack.h
+	"OgrePrerequisites.h"
+	"OgreSimpleSpline.h"
+	"OgreRotationalSpline.h"
+	"OgreKeyFrame.h"
+	"OgreAnimable.h"
+	"OgrePose.h"
+
+1107542930 c:\devel\sdk\ogresdkmingw125\include\ogresimplespline.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1140295482 c:\devel\sdk\ogresdkmingw125\include\ogrematrix4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix3.h"
+	"OgreVector4.h"
+	"OgrePlane.h"
+
+1138677596 c:\devel\sdk\ogresdkmingw125\include\ogrematrix3.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1138677596 c:\devel\sdk\ogresdkmingw125\include\ogreplane.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1107542924 c:\devel\sdk\ogresdkmingw125\include\ogrerotationalspline.h
+	"OgrePrerequisites.h"
+	"OgreQuaternion.h"
+
+1158377204 c:\devel\sdk\ogresdkmingw125\include\ogrekeyframe.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreQuaternion.h"
+	"OgreAny.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreIteratorWrappers.h"
+
+1139608116 c:\devel\sdk\ogresdkmingw125\include\ogrehardwarevertexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgreColourValue.h"
+
+1107542878 c:\devel\sdk\ogresdkmingw125\include\ogrehardwarebuffer.h
+	"OgrePrerequisites.h"
+
+1158377206 c:\devel\sdk\ogresdkmingw125\include\ogrepose.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogreanimationstate.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreController.h"
+	"OgreIteratorWrappers.h"
+
+1137259930 c:\devel\sdk\ogresdkmingw125\include\ogrecontroller.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+
+1107542872 c:\devel\sdk\ogresdkmingw125\include\ogrearchive.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+
+1145664914 c:\devel\sdk\ogresdkmingw125\include\ogredatastream.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	<istream>
+
+1130363816 c:\devel\sdk\ogresdkmingw125\include\ogrearchivemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1140295482 c:\devel\sdk\ogresdkmingw125\include\ogreresourcemanager.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreResourceGroupManager.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+	"OgreScriptLoader.h"
+
+1137965892 c:\devel\sdk\ogresdkmingw125\include\ogreresource.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	"OgreStringInterface.h"
+
+1119201602 c:\devel\sdk\ogresdkmingw125\include\ogrestringinterface.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreCommon.h"
+
+1166199300 c:\devel\sdk\ogresdkmingw125\include\ogrecommon.h
+	<utility>
+
+1140295482 c:\devel\sdk\ogresdkmingw125\include\ogreresourcegroupmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreResource.h"
+	"OgreArchive.h"
+
+1107542930 c:\devel\sdk\ogresdkmingw125\include\ogresingleton.h
+	"OgrePrerequisites.h"
+
+1107606126 c:\devel\sdk\ogresdkmingw125\include\ogrescriptloader.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+
+1107542872 c:\devel\sdk\ogresdkmingw125\include\ogreaxisalignedbox.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1153062178 c:\devel\sdk\ogresdkmingw125\include\ogrebillboardchain.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+
+1153502908 c:\devel\sdk\ogresdkmingw125\include\ogremovableobject.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreShadowCaster.h"
+	"OgreFactoryObj.h"
+	"OgreAnimable.h"
+	"OgreAny.h"
+	"OgreUserDefinedObject.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogrerenderqueue.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1153062178 c:\devel\sdk\ogresdkmingw125\include\ogresphere.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1123535070 c:\devel\sdk\ogresdkmingw125\include\ogreshadowcaster.h
+	"OgrePrerequisites.h"
+	"OgreRenderable.h"
+
+1164214114 c:\devel\sdk\ogresdkmingw125\include\ogrerenderable.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreMatrix4.h"
+	"OgreMaterial.h"
+	"OgrePlane.h"
+	"OgreGpuProgram.h"
+	"OgreVector4.h"
+	"OgreException.h"
+
+1133478808 c:\devel\sdk\ogresdkmingw125\include\ogrerenderoperation.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+
+1139608118 c:\devel\sdk\ogresdkmingw125\include\ogrevertexindexdata.h
+	"OgrePrerequisites.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1107542878 c:\devel\sdk\ogresdkmingw125\include\ogrehardwareindexbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+
+1144558530 c:\devel\sdk\ogresdkmingw125\include\ogrematerial.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+
+1133722950 c:\devel\sdk\ogresdkmingw125\include\ogreblendmode.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1164214110 c:\devel\sdk\ogresdkmingw125\include\ogregpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreSharedPtr.h"
+	"OgreIteratorWrappers.h"
+
+1107542876 c:\devel\sdk\ogresdkmingw125\include\ogrefactoryobj.h
+	"OgrePrerequisites.h"
+
+1120254132 c:\devel\sdk\ogresdkmingw125\include\ogreuserdefinedobject.h
+	"OgrePrerequisites.h"
+
+1140295480 c:\devel\sdk\ogresdkmingw125\include\ogrebillboardset.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreRadixSort.h"
+	"OgreCommon.h"
+
+1133287650 c:\devel\sdk\ogresdkmingw125\include\ogreradixsort.h
+	"OgrePrerequisites.h"
+
+1146776712 c:\devel\sdk\ogresdkmingw125\include\ogrebone.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+
+1150682804 c:\devel\sdk\ogresdkmingw125\include\ogrenode.h
+	"OgrePrerequisites.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreQuaternion.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreIteratorWrappers.h"
+
+1140295480 c:\devel\sdk\ogresdkmingw125\include\ogrecamera.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreMatrix4.h"
+	"OgreVector3.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreCommon.h"
+	"OgreFrustum.h"
+	"OgreRay.h"
+
+1166199302 c:\devel\sdk\ogresdkmingw125\include\ogrefrustum.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexIndexData.h"
+	"OgreMovablePlane.h"
+
+1138677596 c:\devel\sdk\ogresdkmingw125\include\ogremovableplane.h
+	"OgrePrerequisites.h"
+	"OgrePlane.h"
+	"OgreMovableObject.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogreray.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgrePlaneBoundedVolume.h"
+
+1107542908 c:\devel\sdk\ogresdkmingw125\include\ogreplaneboundedvolume.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreMath.h"
+	"OgrePlane.h"
+
+1111866264 c:\devel\sdk\ogresdkmingw125\include\ogreconfigfile.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+	"OgreIteratorWrappers.h"
+	"OgreDataStream.h"
+
+1140966072 c:\devel\sdk\ogresdkmingw125\include\ogrecontrollermanager.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreSingleton.h"
+	"OgreController.h"
+	"OgrePredefinedControllers.h"
+	"OgreTextureUnitState.h"
+	"OgreSharedPtr.h"
+
+1139110616 c:\devel\sdk\ogresdkmingw125\include\ogrepredefinedcontrollers.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreController.h"
+	"OgreFrameListener.h"
+	"OgreGpuProgram.h"
+
+1107542876 c:\devel\sdk\ogresdkmingw125\include\ogreframelistener.h
+	"OgrePrerequisites.h"
+
+1163191802 c:\devel\sdk\ogresdkmingw125\include\ogretextureunitstate.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreBlendMode.h"
+	"OgreMatrix4.h"
+	"OgreIteratorWrappers.h"
+	"OgreString.h"
+	"OgreTexture.h"
+
+1144558530 c:\devel\sdk\ogresdkmingw125\include\ogretexture.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreResource.h"
+	"OgreImage.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogreimage.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgrePixelFormat.h"
+	"OgreDataStream.h"
+
+1153062178 c:\devel\sdk\ogresdkmingw125\include\ogrepixelformat.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+
+1161635714 c:\devel\sdk\ogresdkmingw125\include\ogreentity.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreHardwareBufferManager.h"
+	"OgreMesh.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogrehardwarebuffermanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1158170640 c:\devel\sdk\ogresdkmingw125\include\ogremesh.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreVertexIndexData.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreIteratorWrappers.h"
+	"OgreProgressiveMesh.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreSkeleton.h"
+	"OgreAnimationTrack.h"
+	"OgrePose.h"
+
+1107542942 c:\devel\sdk\ogresdkmingw125\include\ogrevertexboneassignment.h
+	"OgrePrerequisites.h"
+
+1118055916 c:\devel\sdk\ogresdkmingw125\include\ogreprogressivemesh.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreRenderOperation.h"
+
+1145664914 c:\devel\sdk\ogresdkmingw125\include\ogreskeleton.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+
+1107542876 c:\devel\sdk\ogresdkmingw125\include\ogreeventprocessor.h
+	<list>
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreFrameListener.h"
+	"OgreMouseTarget.h"
+	"OgreKeyTarget.h"
+	"OgreMouseMotionTarget.h"
+
+1111866264 c:\devel\sdk\ogresdkmingw125\include\ogremousetarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1137259930 c:\devel\sdk\ogresdkmingw125\include\ogrepositiontarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1137259930 c:\devel\sdk\ogresdkmingw125\include\ogreeventtarget.h
+	"OgrePrerequisites.h"
+
+1111866264 c:\devel\sdk\ogresdkmingw125\include\ogrekeytarget.h
+	"OgrePrerequisites.h"
+	"OgreEventTarget.h"
+
+1111866264 c:\devel\sdk\ogresdkmingw125\include\ogremousemotiontarget.h
+	"OgrePrerequisites.h"
+	"OgrePositionTarget.h"
+
+1107542878 c:\devel\sdk\ogresdkmingw125\include\ogregpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgreGpuProgram.h"
+	"OgreSingleton.h"
+
+1125416372 c:\devel\sdk\ogresdkmingw125\include\ogrehardwarepixelbuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgrePixelFormat.h"
+	"OgreImage.h"
+
+1149359522 c:\devel\sdk\ogresdkmingw125\include\ogrehardwareocclusionquery.h
+	"OgrePrerequisites.h"
+
+1144558530 c:\devel\sdk\ogresdkmingw125\include\ogrehighlevelgpuprogram.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+
+1144277760 c:\devel\sdk\ogresdkmingw125\include\ogrehighlevelgpuprogrammanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreException.h"
+	"OgreHighLevelGpuProgram.h"
+
+1130777880 c:\devel\sdk\ogresdkmingw125\include\ogreinput.h
+	"OgrePrerequisites.h"
+
+1139452482 c:\devel\sdk\ogresdkmingw125\include\ogrelight.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgrePlaneBoundedVolume.h"
+
+1164214110 c:\devel\sdk\ogresdkmingw125\include\ogrelogmanager.h
+	"OgrePrerequisites.h"
+	"OgreLog.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+
+1164214110 c:\devel\sdk\ogresdkmingw125\include\ogrelog.h
+	"OgrePrerequisites.h"
+
+1131286964 c:\devel\sdk\ogresdkmingw125\include\ogremanualobject.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreResourceGroupManager.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogrematerialmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreResourceManager.h"
+	"OgreMaterial.h"
+	"OgreStringVector.h"
+	"OgreMaterialSerializer.h"
+
+1137259930 c:\devel\sdk\ogresdkmingw125\include\ogrematerialserializer.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreBlendMode.h"
+	"OgreTextureUnitState.h"
+	"OgreGpuProgram.h"
+	"OgreStringVector.h"
+
+1137965892 c:\devel\sdk\ogresdkmingw125\include\ogremeshmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreVector3.h"
+	"OgreHardwareBuffer.h"
+	"OgreMesh.h"
+	"OgrePatchMesh.h"
+
+1144558530 c:\devel\sdk\ogresdkmingw125\include\ogrepatchmesh.h
+	"OgrePrerequisites.h"
+	"OgreMesh.h"
+	"OgrePatchSurface.h"
+
+1107542908 c:\devel\sdk\ogresdkmingw125\include\ogrepatchsurface.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreRenderOperation.h"
+	"OgreAxisAlignedBox.h"
+
+1139608116 c:\devel\sdk\ogresdkmingw125\include\ogremeshserializer.h
+	"OgrePrerequisites.h"
+	"OgreMeshSerializerImpl.h"
+	"OgreSerializer.h"
+
+1139608116 c:\devel\sdk\ogresdkmingw125\include\ogremeshserializerimpl.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSerializer.h"
+	"OgreMaterial.h"
+	"OgreMesh.h"
+	"OgreEdgeListBuilder.h"
+
+1139608118 c:\devel\sdk\ogresdkmingw125\include\ogreserializer.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+
+1107542874 c:\devel\sdk\ogresdkmingw125\include\ogreedgelistbuilder.h
+	"OgrePrerequisites.h"
+	"OgreVector4.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreRenderOperation.h"
+
+1143393248 c:\devel\sdk\ogresdkmingw125\include\ogreoverlay.h
+	"OgrePrerequisites.h"
+	"OgreSceneNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreMatrix4.h"
+
+1158170640 c:\devel\sdk\ogresdkmingw125\include\ogrescenenode.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreAxisAlignedBox.h"
+
+1121034200 c:\devel\sdk\ogresdkmingw125\include\ogreoverlaycontainer.h
+	"OgrePrerequisites.h"
+	"OgreOverlayElement.h"
+	"OgreIteratorWrappers.h"
+
+1161362556 c:\devel\sdk\ogresdkmingw125\include\ogreoverlayelement.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreStringInterface.h"
+	"OgreOverlayElementCommands.h"
+	"OgreColourValue.h"
+	"OgreRectangle.h"
+
+1107542904 c:\devel\sdk\ogresdkmingw125\include\ogreoverlayelementcommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107542910 c:\devel\sdk\ogresdkmingw125\include\ogrerectangle.h
+	"OgrePrerequisites.h"
+
+1140295482 c:\devel\sdk\ogresdkmingw125\include\ogreoverlaymanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreStringVector.h"
+	"OgreOverlay.h"
+	"OgreScriptLoader.h"
+
+1114808886 c:\devel\sdk\ogresdkmingw125\include\ogreparticleaffector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringInterface.h"
+
+1114808886 c:\devel\sdk\ogresdkmingw125\include\ogreparticleemitter.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringInterface.h"
+	"OgreParticleEmitterCommands.h"
+	"OgreParticle.h"
+
+1107542904 c:\devel\sdk\ogresdkmingw125\include\ogreparticleemittercommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1107542904 c:\devel\sdk\ogresdkmingw125\include\ogreparticle.h
+	"OgrePrerequisites.h"
+	"OgreBillboard.h"
+
+1139706606 c:\devel\sdk\ogresdkmingw125\include\ogrebillboard.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+
+1149866132 c:\devel\sdk\ogresdkmingw125\include\ogreparticlesystemmanager.h
+	"OgrePrerequisites.h"
+	"OgreParticleSystem.h"
+	"OgreFrameListener.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+	"OgreScriptLoader.h"
+	"OgreResourceGroupManager.h"
+
+1153549948 c:\devel\sdk\ogresdkmingw125\include\ogreparticlesystem.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreParticleIterator.h"
+	"OgreStringInterface.h"
+	"OgreMovableObject.h"
+	"OgreRadixSort.h"
+	"OgreController.h"
+
+1107542906 c:\devel\sdk\ogresdkmingw125\include\ogreparticleiterator.h
+	"OgrePrerequisites.h"
+
+1164229860 c:\devel\sdk\ogresdkmingw125\include\ogrepass.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgreLight.h"
+
+1137259930 c:\devel\sdk\ogresdkmingw125\include\ogreplatformmanager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+
+1107542910 c:\devel\sdk\ogresdkmingw125\include\ogreprofiler.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreOverlay.h"
+
+1138677596 c:\devel\sdk\ogresdkmingw125\include\ogrerenderqueueinvocation.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreIteratorWrappers.h"
+
+1142168154 c:\devel\sdk\ogresdkmingw125\include\ogrerenderqueuesortinggrouping.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreRadixSort.h"
+
+1142107638 c:\devel\sdk\ogresdkmingw125\include\ogretechnique.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgrePass.h"
+
+1137259930 c:\devel\sdk\ogresdkmingw125\include\ogrerenderqueuelistener.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+
+1169333328 c:\devel\sdk\ogresdkmingw125\include\ogrerendersystem.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureUnitState.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreRenderSystemCapabilities.h"
+	"OgreRenderTarget.h"
+	"OgreRenderTexture.h"
+	"OgreFrameListener.h"
+	"OgreConfigOptionMap.h"
+	"OgreGpuProgram.h"
+	"OgrePlane.h"
+	"OgreIteratorWrappers.h"
+
+1163191802 c:\devel\sdk\ogresdkmingw125\include\ogrerendersystemcapabilities.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1138677596 c:\devel\sdk\ogresdkmingw125\include\ogrerendertarget.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureManager.h"
+	"OgreViewport.h"
+	"OgreTimer.h"
+
+1142107638 c:\devel\sdk\ogresdkmingw125\include\ogretexturemanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreTexture.h"
+	"OgreSingleton.h"
+
+1141613340 c:\devel\sdk\ogresdkmingw125\include\ogreviewport.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+
+1120254132 c:\devel\sdk\ogresdkmingw125\include\ogretimer.h
+	"OgrePrerequisites.h"
+
+1122485940 c:\devel\sdk\ogresdkmingw125\include\ogrerendertexture.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1107542874 c:\devel\sdk\ogresdkmingw125\include\ogreconfigoptionmap.h
+	"OgrePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreString.h"
+
+1138677596 c:\devel\sdk\ogresdkmingw125\include\ogrerendertargetlistener.h
+	"OgrePrerequisites.h"
+
+1119388392 c:\devel\sdk\ogresdkmingw125\include\ogrerenderwindow.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1159469002 c:\devel\sdk\ogresdkmingw125\include\ogreribbontrail.h
+	"OgrePrerequisites.h"
+	"OgreBillboardChain.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreFrameListener.h"
+	"OgreControllerManager.h"
+
+1163280538 c:\devel\sdk\ogresdkmingw125\include\ogreroot.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreResourceGroupManager.h"
+	<exception>
+
+1140295482 c:\devel\sdk\ogresdkmingw125\include\ogrescenemanagerenumerator.h
+	"OgrePrerequisites.h"
+	"OgreSceneManager.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+
+1156529730 c:\devel\sdk\ogresdkmingw125\include\ogrescenemanager.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSceneNode.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+	"OgreSceneQuery.h"
+	"OgreAutoParamDataSource.h"
+	"OgreAnimationState.h"
+	"OgreRenderQueue.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreRectangle2D.h"
+	"OgrePixelFormat.h"
+	"OgreResourceGroupManager.h"
+	"OgreTexture.h"
+
+1123535070 c:\devel\sdk\ogresdkmingw125\include\ogrescenequery.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreRay.h"
+	"OgreRenderOperation.h"
+	"OgrePlaneBoundedVolume.h"
+
+1161362556 c:\devel\sdk\ogresdkmingw125\include\ogreautoparamdatasource.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreMatrix4.h"
+	"OgreVector4.h"
+	"OgreLight.h"
+	"OgreColourValue.h"
+
+1107542910 c:\devel\sdk\ogresdkmingw125\include\ogrerectangle2d.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1116111758 c:\devel\sdk\ogresdkmingw125\include\ogresimplerenderable.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMaterial.h"
+
+1153502908 c:\devel\sdk\ogresdkmingw125\include\ogreskeletoninstance.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+
+1107542930 c:\devel\sdk\ogresdkmingw125\include\ogreskeletonmanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1139608118 c:\devel\sdk\ogresdkmingw125\include\ogreskeletonserializer.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+	"OgreSerializer.h"
+
+1149359522 c:\devel\sdk\ogresdkmingw125\include\ogrestaticgeometry.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+
+1169333328 c:\devel\sdk\ogresdkmingw125\include\ogrestringconverter.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+
+1164214116 c:\devel\sdk\ogresdkmingw125\include\ogresubentity.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreHardwareBufferManager.h"
+
+1132177948 c:\devel\sdk\ogresdkmingw125\include\ogresubmesh.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+	"OgreMaterial.h"
+	"OgreRenderOperation.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreProgressiveMesh.h"
+	"OgreAnimationTrack.h"
+
+1144558530 c:\devel\sdk\ogresdkmingw125\include\ogrecompositor.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreResource.h"
+
+1153062178 c:\devel\sdk\ogresdkmingw125\include\ogrecompositormanager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreCompositor.h"
+	"OgreRectangle2D.h"
+	"OgreCompositorSerializer.h"
+
+1144345646 c:\devel\sdk\ogresdkmingw125\include\ogrecompositorserializer.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+
+1166199302 c:\devel\sdk\ogresdkmingw125\include\ogrecompositorchain.h
+	"OgrePrerequisites.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderQueueListener.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositor.h"
+
+1158170640 c:\devel\sdk\ogresdkmingw125\include\ogrecompositorinstance.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreTexture.h"
+	"OgreRenderQueue.h"
+
+1142107638 c:\devel\sdk\ogresdkmingw125\include\ogrecompositiontechnique.h
+	"OgrePrerequisites.h"
+	"OgrePixelFormat.h"
+	"OgreIteratorWrappers.h"
+
+1149866132 c:\devel\sdk\ogresdkmingw125\include\ogrecompositionpass.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreRenderSystem.h"
+	"OgreRenderQueue.h"
+
+1149866132 c:\devel\sdk\ogresdkmingw125\include\ogrecompositiontargetpass.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1112018678 c:\devel\sdk\ogresdkmingw125\include\ogreode_core.h
+	"OgreOdePreReqs.h"
+	"OgreOdeUtility.h"
+	"OgreOdeWorld.h"
+	"OgreOdeBody.h"
+	"OgreOdeMass.h"
+	"OgreOdeJoint.h"
+	"OgreOdeSpace.h"
+	"OgreOdeGeometry.h"
+	"OgreOdeCollision.h"
+	"OgreOdeStepper.h"
+	"OgreOdeEntityInformer.h"
+	"OgreOdeDebugObject.h"
+
+1156781540 c:\devel\sdk\ogresdkmingw125\include\ogreodeprereqs.h
+	"Ogre.h"
+	"OgreNoMemoryMacros.h"
+	"ode/ode.h"
+	"OgreMemoryMacros.h"
+
+1107542904 c:\devel\sdk\ogresdkmingw125\include\ogrenomemorymacros.h
+
+1083355898 c:\devel\sdk\ogresdkmingw125\include\ode\ode.h
+	<ode/config.h>
+	<ode/compatibility.h>
+	<ode/common.h>
+	<ode/contact.h>
+	<ode/error.h>
+	<ode/memory.h>
+	<ode/odemath.h>
+	<ode/matrix.h>
+	<ode/timer.h>
+	<ode/rotation.h>
+	<ode/mass.h>
+	<ode/misc.h>
+	<ode/objects.h>
+	<ode/odecpp.h>
+	<ode/collision_space.h>
+	<ode/collision.h>
+	<ode/odecpp_collision.h>
+	<ode/export-dif.h>
+
+1156157924 c:\devel\sdk\ogresdkmingw125\ode\include\ode\config.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<malloc.h>
+	<math.h>
+	<string.h>
+	<float.h>
+	<alloca.h>
+
+1142932080 c:\devel\sdk\ogresdkmingw125\ode\include\ode\compatibility.h
+
+1156146328 c:\devel\sdk\ogresdkmingw125\ode\include\ode\common.h
+	<ode/config.h>
+	<ode/error.h>
+	<math.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\error.h
+	<ode/config.h>
+
+1147355112 c:\devel\sdk\ogresdkmingw125\ode\include\ode\contact.h
+	<ode/common.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\memory.h
+	"ode/config.h"
+
+1156157910 c:\devel\sdk\ogresdkmingw125\ode\include\ode\odemath.h
+	<ode/common.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\matrix.h
+	<ode/common.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\timer.h
+	<ode/config.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\rotation.h
+	<ode/common.h>
+	<ode/compatibility.h>
+
+1152197712 c:\devel\sdk\ogresdkmingw125\ode\include\ode\mass.h
+	<ode/common.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\misc.h
+	<ode/common.h>
+
+1157117452 c:\devel\sdk\ogresdkmingw125\ode\include\ode\objects.h
+	<ode/common.h>
+	<ode/mass.h>
+	<ode/contact.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\odecpp.h
+	<ode/error.h>
+
+1152197712 c:\devel\sdk\ogresdkmingw125\ode\include\ode\collision_space.h
+	<ode/common.h>
+
+1156146328 c:\devel\sdk\ogresdkmingw125\ode\include\ode\collision.h
+	<ode/common.h>
+	<ode/collision_space.h>
+	<ode/contact.h>
+	"collision_trimesh.h"
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\collision_trimesh.h
+
+1142932080 c:\devel\sdk\ogresdkmingw125\ode\include\ode\odecpp_collision.h
+	<ode/error.h>
+
+1145715036 c:\devel\sdk\ogresdkmingw125\ode\include\ode\export-dif.h
+	<ode/common.h>
+
+1098869120 c:\devel\sdk\ogresdkmingw125\include\ogreodeutility.h
+	"OgreOdePreReqs.h"
+
+1156793660 c:\devel\sdk\ogresdkmingw125\include\ogreodeworld.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+	"OgreSingleton.h"
+	<map>
+
+1154524308 c:\devel\sdk\ogresdkmingw125\include\ogreodemaintainedlist.h
+	"OgreOdePreReqs.h"
+
+1157535874 c:\devel\sdk\ogresdkmingw125\include\ogreodebody.h
+	"OgreOdePreReqs.h"
+
+1098869120 c:\devel\sdk\ogresdkmingw125\include\ogreodemass.h
+	"OgreOdePreReqs.h"
+
+1160308234 c:\devel\sdk\ogresdkmingw125\include\ogreodejoint.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+
+1151848380 c:\devel\sdk\ogresdkmingw125\include\ogreodespace.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+
+1157012172 c:\devel\sdk\ogresdkmingw125\include\ogreodegeometry.h
+	"OgreOdePreReqs.h"
+	"OgreOdeMaintainedList.h"
+
+1156781544 c:\devel\sdk\ogresdkmingw125\include\ogreodecollision.h
+	"OgreOdePreReqs.h"
+
+1154524316 c:\devel\sdk\ogresdkmingw125\include\ogreodestepper.h
+	"OgreOdePreReqs.h"
+
+1157484584 c:\devel\sdk\ogresdkmingw125\include\ogreodeentityinformer.h
+	"OgreOdePreReqs.h"
+
+1156967968 c:\devel\sdk\ogresdkmingw125\include\ogreodedebugobject.h
+	"OgreOdePreReqs.h"
+
+1140295488 c:\devel\sdk\ogresdkmingw125\include\ogreterrainscenemanager.h
+	"OgreTerrainPrerequisites.h"
+	"OgreOctreeSceneManager.h"
+	"OgreOctreeSceneQuery.h"
+	"OgreTerrainRenderable.h"
+	"OgreTerrainPageSource.h"
+	"OgreIteratorWrappers.h"
+
+1146159000 c:\devel\sdk\ogresdkmingw125\include\ogreterrainprerequisites.h
+	"OgrePrerequisites.h"
+
+1169333334 c:\devel\sdk\ogresdkmingw125\include\ogreoctreescenemanager.h
+	"OgreSceneManager.h"
+	"OgreRenderOperation.h"
+	"OgreSphere.h"
+	<list>
+	<algorithm>
+	<OgreOctree.h>
+
+1169333334 c:\devel\sdk\ogresdkmingw125\include\ogreoctree.h
+	<OgreAxisAlignedBox.h>
+	<OgreWireBoundingBox.h>
+	<list>
+
+1107542942 c:\devel\sdk\ogresdkmingw125\include\ogrewireboundingbox.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1169333334 c:\devel\sdk\ogresdkmingw125\include\ogreoctreescenequery.h
+	"OgreTerrainPrerequisites.h"
+	<OgreSceneManager.h>
+
+1169333334 c:\devel\sdk\ogresdkmingw125\include\ogreterrainrenderable.h
+	"OgreTerrainPrerequisites.h"
+	<OgreRenderable.h>
+	<OgreMovableObject.h>
+	<OgreAxisAlignedBox.h>
+	<OgreString.h>
+	<OgreHardwareBufferManager.h>
+	<vector>
+
+1140295488 c:\devel\sdk\ogresdkmingw125\include\ogreterrainpagesource.h
+	"OgreTerrainPrerequisites.h"
+	"OgreSingleton.h"
+
+1187102953 c:\devel\hoper\devel\logger.h
+	<stdio.h>
+	<stdarg.h>
+	"singleton.h"
+
+1183651112 c:\devel\hoper\devel\debugship.cpp
+	"debugship.h"
+
+1185623664 c:\devel\hoper\devel\debugship.h
+	"ship.h"
+
+1185624284 c:\devel\hoper\devel\ship.h
+	"physactor.h"
+	"controllable.h"
+	"dynamic.h"
+	"OgreOde_Core.h"
+	"spotlight.h"
+	"soundmanager.h"
+
+1185624094 c:\devel\hoper\devel\physactor.h
+	"actor.h"
+	"OgreOde_Core.h"
+
+1185623656 c:\devel\hoper\devel\controllable.h
+
+1185623690 c:\devel\hoper\devel\dynamic.h
+
+1185624308 c:\devel\hoper\devel\spotlight.h
+	"Ogre.h"
+	"scenemanager.h"
+
+1185624300 c:\devel\hoper\devel\soundmanager.h
+	"fmod.h"
+	"singleton.h"
+
+1183052348 c:\devel\hoper\devel\delay.cpp
+	"delay.h"
+
+1185623672 c:\devel\hoper\devel\delay.h
+	"Ogre.h"
+
+1188908994 c:\devel\hoper\devel\emitter.cpp
+	"emitter.h"
+	"logger.h"
+
+1188909018 c:\devel\hoper\devel\emitter.h
+	"Ogre.h"
+	"scenemanager.h"
+
+1188910377 c:\devel\hoper\devel\game.cpp
+	"game.h"
+	"math.h"
+	"logger.h"
+	"screen.h"
+	"gameconstants.h"
+	<vector>
+
+1185623708 c:\devel\hoper\devel\game.h
+	"gamepart.h"
+	"OgreOde_core.h"
+	"level.h"
+	"landingpad.h"
+	"ring.h"
+	"ship.h"
+	"ground.h"
+	"inputmanager.h"
+	"scenemanager.h"
+	"timemanager.h"
+	"camera.h"
+	"interfacegame.h"
+	"soundmanager.h"
+	"emitter.h"
+	"delay.h"
+
+1185623730 c:\devel\hoper\devel\gamepart.h
+
+1187106123 c:\devel\hoper\devel\level.h
+	"ground.h"
+	"ship.h"
+	"debugship.h"
+	"light.h"
+	"landingpad.h"
+	"ring.h"
+	"scenemanager.h"
+	"objecttypes.h"
+	<vector>
+
+1185623740 c:\devel\hoper\devel\ground.h
+	"scenemanager.h"
+
+1185623908 c:\devel\hoper\devel\light.h
+	"actor.h"
+	"Ogre.h"
+
+1185623890 c:\devel\hoper\devel\landingpad.h
+	"physactor.h"
+	"pointlight.h"
+	"spotlight.h"
+
+1185624108 c:\devel\hoper\devel\pointlight.h
+	"Ogre.h"
+	"scenemanager.h"
+
+1187277896 c:\devel\hoper\devel\ring.h
+	"physactor.h"
+
+1186500700 c:\devel\hoper\devel\inputmanager.h
+	"singleton.h"
+	"Ogre.h"
+	"delay.h"
+
+1183132326 c:\devel\hoper\devel\userinterface.h
+	"Ogre.h"
+	"singleton.h"
+
+1185624274 c:\devel\hoper\devel\screen.h
+	"Ogre.h"
+	"singleton.h"
+
+1184701834 c:\devel\hoper\devel\gameconstants.h
+
+1187104274 c:\devel\hoper\devel\gamemanager.cpp
+	"gamemanager.h"
+	"game.h"
+	"hopedit.h"
+	"menu.h"
+	"inputmanager.h"
+	"logger.h"
+	"screen.h"
+	"sqlite3x.hpp"
+
+1185623720 c:\devel\hoper\devel\gamemanager.h
+	"gamepart.h"
+
+1186498766 c:\devel\hoper\devel\hopedit.h
+	"inputmanager.h"
+	"camera.h"
+	"gamepart.h"
+	"scenemanager.h"
+	"level.h"
+	"soundmanager.h"
+	"interfaceeditor.h"
+	"gamemanager.h"
+
+1187360383 c:\devel\hoper\devel\ground.cpp
+	"ground.h"
+	"logger.h"
+	"resourcemanager.h"
+
+1185624182 c:\devel\hoper\devel\resourcemanager.h
+	"Ogre.h"
+	"soundmanager.h"
+	"singleton.h"
+	"resource.h"
+	<map>
+	<string>
+
+1183976502 c:\devel\hoper\devel\hoper.cpp
+	<stdlib.h>
+	"screen.h"
+	"inputmanager.h"
+	"gamemanager.h"
+	"scenemanager.h"
+	"logger.h"
+	"Ogre.h"
+	"resourcemanager.h"
+	<windows.h>
+
+1186501326 c:\devel\hoper\devel\inputmanager.cpp
+	"inputmanager.h"
+	"screen.h"
+	"logger.h"
+
+1183119154 c:\devel\hoper\devel\landingpad.cpp
+	"landingpad.h"
+	"logger.h"
+
+1187362083 c:\devel\hoper\devel\level.cpp
+	"level.h"
+	"logger.h"
+	"sqlite3x.hpp"
+
+1183155298 c:\devel\hoper\devel\light.cpp
+	"light.h"
+	"scenemanager.h"
+	"logger.h"
+
+1187102908 c:\devel\hoper\devel\logger.cpp
+	"logger.h"
+
+1187361966 c:\devel\hoper\devel\physactor.cpp
+	"physactor.h"
+	"scenemanager.h"
+	"logger.h"
+
+1183117142 c:\devel\hoper\devel\pointlight.cpp
+	"pointlight.h"
+	"logger.h"
+
+1183145956 c:\devel\hoper\devel\resourcemanager.cpp
+	"resourcemanager.h"
+	"logger.h"
+
+1187278940 c:\devel\hoper\devel\ring.cpp
+	"ring.h"
+
+1184588464 c:\devel\hoper\devel\scenemanager.cpp
+	"scenemanager.h"
+	"screen.h"
+	"logger.h"
+	"gameconstants.h"
+
+1183987792 c:\devel\hoper\devel\screen.cpp
+	"screen.h"
+	"logger.h"
+
+1184701638 c:\devel\hoper\devel\ship.cpp
+	"ship.h"
+	"scenemanager.h"
+	"logger.h"
+	"gameconstants.h"
+
+1182784990 c:\devel\hoper\devel\soundmanager.cpp
+	"soundmanager.h"
+
+1183117134 c:\devel\hoper\devel\spotlight.cpp
+	"spotlight.h"
+
+1183132092 c:\devel\hoper\devel\userinterface.cpp
+	"userinterface.h"
+	"Ogre.h"
+	<OgreTextAreaOverlayElement.h>
+	"scenemanager.h"
+	"logger.h"
+
+1161362556 c:\devel\sdk\ogresdkmingw125\include\ogretextareaoverlayelement.h
+	"OgreOverlayElement.h"
+	"OgreFont.h"
+
+1144558530 c:\devel\sdk\ogresdkmingw125\include\ogrefont.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreTexture.h"
+	"OgreMaterial.h"
+
+1184010206 c:\devel\hoper\devel\camera.cpp
+	"Ogre.h"
+	"math.h"
+	"screen.h"
+	"camera.h"
+	"logger.h"
+
+1187274834 c:\devel\hoper\devel\hopedit.cpp
+	"hopedit.h"
+	"logger.h"
+	"sqlite3x.hpp"
+	"gameconstants.h"
+	<sstream>
+	<iostream>
+
+1203411500 u:\dev\hoper\devel\menu.h
+	"gamepart.h"
+	"level.h"
+	"interfacemenu.h"
+	"scenemanager.h"
+	"inputmanager.h"
+	"timemanager.h"
+	"betagui.h"
+	"aiship.h"
+	"OgreOde_Core.h"
+
+1185620244 u:\dev\hoper\devel\interfacelevel.h
+	"Ogre.h"
+
+1183824842 source:u:\dev\hoper\devel\interfacelevel.cpp
+	"interfacelevel.h"
+	"Ogre.h"
+	"scenemanager.h"
+	"logger.h"
+
+1203415681 source:u:\dev\hoper\devel\menu.cpp
+	"menu.h"
+	"logger.h"
+	"screen.h"
+
+1200584207 u:\dev\hoper\devel\interfacemenu.h
+	"Ogre.h"
+
+1202344764 source:u:\dev\hoper\devel\interfacemenu.cpp
+	"interfacemenu.h"
+	"Ogre.h"
+	"scenemanager.h"
+	"logger.h"
+
+1185620188 u:\dev\hoper\devel\interfaceeditor.h
+	"Ogre.h"
+
+1183834348 source:u:\dev\hoper\devel\interfaceeditor.cpp
+	"interfaceeditor.h"
+	"Ogre.h"
+	"scenemanager.h"
+	"logger.h"
+
+1201825952 u:\dev\hoper\devel\interfacegame.h
+	"Ogre.h"
+	"singleton.h"
+
+1201827270 source:u:\dev\hoper\devel\interfacegame.cpp
+	"interfacegame.h"
+	"Ogre.h"
+	"scenemanager.h"
+	"logger.h"
+
+1185620746 u:\dev\hoper\devel\timemanager.h
+	"Ogre.h"
+	"singleton.h"
+
+1183989482 source:u:\dev\hoper\devel\timemanager.cpp
+	"timemanager.h"
+	"screen.h"
+
+1201619146 u:\dev\hoper\devel\objecttypes.h
+
+1184497998 u:\dev\hoper\devel\gameobjectmanager.h
+	"Ogre.h"
+	<vector>
+	"ship.h"
+	"landingpad.h"
+	"ring.h"
+
+1184498108 source:u:\dev\hoper\devel\gameobjectmanager.cpp
+	"gameobjectmanager.h"
+	"sqlite3x.hpp"
+	"logger.h"
+	"objecttypes.h"
+
+1184417882 c:\devel\hoper\devel\objecttypes.h
+
+1185624346 c:\devel\hoper\devel\timemanager.h
+	"Ogre.h"
+	"singleton.h"
+
+1185623806 c:\devel\hoper\devel\interfacegame.h
+	"Ogre.h"
+	"singleton.h"
+
+1185623788 c:\devel\hoper\devel\interfaceeditor.h
+	"Ogre.h"
+
+1185623950 c:\devel\hoper\devel\menu.h
+	"gamepart.h"
+	"level.h"
+	"interfacemenu.h"
+	"scenemanager.h"
+	"inputmanager.h"
+	"timemanager.h"
+
+1185623878 c:\devel\hoper\devel\interfacemenu.h
+	"Ogre.h"
+
+1183837948 c:\devel\hoper\devel\interfaceeditor.cpp
+	"interfaceeditor.h"
+	"Ogre.h"
+	"scenemanager.h"
+	"logger.h"
+
+1183994654 c:\devel\hoper\devel\interfacegame.cpp
+	"interfacegame.h"
+	"Ogre.h"
+	<OgreTextAreaOverlayElement.h>
+	"scenemanager.h"
+	"logger.h"
+
+1183828442 c:\devel\hoper\devel\interfacelevel.cpp
+	"interfacelevel.h"
+	"Ogre.h"
+	"scenemanager.h"
+	"logger.h"
+
+1185623844 c:\devel\hoper\devel\interfacelevel.h
+	"Ogre.h"
+
+1183829758 c:\devel\hoper\devel\interfacemenu.cpp
+	"interfacemenu.h"
+	"Ogre.h"
+	"scenemanager.h"
+	"logger.h"
+
+1187104516 c:\devel\hoper\devel\menu.cpp
+	"menu.h"
+	"logger.h"
+	"OgreOde_core.h"
+
+1183993082 c:\devel\hoper\devel\timemanager.cpp
+	"timemanager.h"
+	"screen.h"
+
+1201735989 source:u:\dev\hoper\devel\gameplaylanding.cpp
+	"gameplaylanding.h"
+	"gameconstants.h"
+	"logger.h"
+
+1201736139 u:\dev\hoper\devel\gameplaylanding.h
+	"game.h"
+	"sound.h"
+
+1201611148 source:u:\dev\hoper\devel\gameplayracing.cpp
+	"gameplayracing.h"
+	"gameconstants.h"
+	"logger.h"
+
+1200504235 u:\dev\hoper\devel\gameplayracing.h
+	"game.h"
+
+1202237847 source:u:\dev\hoper\devel\gameplaytutorial.cpp
+	"gameplaytutorial.h"
+	"gameconstants.h"
+	"logger.h"
+	"tutorialpartgravity.h"
+	"tutorialpartorientation.h"
+	"tutorialpartroll.h"
+	"tutorialpartpitch.h"
+
+1201835823 u:\dev\hoper\devel\gameplaytutorial.h
+	"game.h"
+	"tutpart.h"
+	"interfacetutorialmessage.h"
+
+1201899473 source:u:\dev\hoper\devel\tutorialpartbox.cpp
+	"tutorialpartbox.h"
+	"logger.h"
+
+1201732773 u:\dev\hoper\devel\tutpartbox.h
+	"tutpart.h"
+	"ogre.h"
+	"sound.h"
+
+1201818133 u:\dev\hoper\devel\tutpart.h
+	"delay.h"
+	"ship.h"
+
+1201831276 source:u:\dev\hoper\devel\tutorialpartgravity.cpp
+	"tutorialpartgravity.h"
+	"logger.h"
+
+1201820566 u:\dev\hoper\devel\tutorialpartgravity.h
+	"tutorialpartbox.h"
+	"ogre.h"
+
+1201820857 u:\dev\hoper\devel\tutorialpartorientation.h
+	"tutpart.h"
+	"ogre.h"
+	"ship.h"
+	"actor.h"
+	"sound.h"
+
+1201831734 source:u:\dev\hoper\devel\tutorialpartorientation.cpp
+	"tutorialpartorientation.h"
+	"logger.h"
+
+1201214205 u:\dev\hoper\devel\sun.h
+	"ogre.h"
+	"scenemanager.h"
+	"light.h"
+
+1201598679 source:u:\dev\hoper\devel\sun.cpp
+	"sun.h"
+
+1201607956 u:\dev\hoper\devel\clouds.h
+	"ogre.h"
+
+1201616228 source:u:\dev\hoper\devel\clouds.cpp
+	"clouds.h"
+	"scenemanager.h"
+	"logger.h"
+
+1201733742 u:\dev\hoper\devel\fan.h
+	"ogre.h"
+	"physactor.h"
+	"sound.h"
+
+1202482914 source:u:\dev\hoper\devel\fan.cpp
+	"fan.h"
+	"logger.h"
+
+1201732119 u:\dev\hoper\devel\sound.h
+	"ogre.h"
+	"soundmanager.h"
+
+1201732564 source:u:\dev\hoper\devel\sound.cpp
+	"sound.h"
+
+1201878564 u:\dev\hoper\devel\tutorialpartbox.h
+	"tutpart.h"
+	"ogre.h"
+	"sound.h"
+
+1201830950 u:\dev\hoper\devel\interfacetutorialmessage.h
+	"Ogre.h"
+
+1201830944 source:u:\dev\hoper\devel\interfacetutorialmessage.cpp
+	"interfacetutorialmessage.h"
+
+1201877989 u:\dev\hoper\devel\tutorialpartroll.h
+	"tutorialpartbox.h"
+	"ogre.h"
+
+1201879038 source:u:\dev\hoper\devel\tutorialpartroll.cpp
+	"tutorialpartroll.h"
+	"logger.h"
+
+1201898411 u:\dev\hoper\devel\tutorialpartpitch.h
+	"tutorialpartbox.h"
+	"ogre.h"
+
+1201899448 source:u:\dev\hoper\devel\tutorialpartpitch.cpp
+	"tutorialpartpitch.h"
+	"logger.h"
+
+1202342901 u:\dev\hoper\devel\betagui.h
+	"Ogre.h"
+
+1202344380 source:u:\dev\hoper\devel\betagui.cpp
+	"betagui.h"
+	"logger.h"
+
+1203417579 u:\dev\hoper\devel\aiship.h
+	"ship.h"
+	"ground.h"
+	"delay.h"
+
+1203441775 source:u:\dev\hoper\devel\aiship.cpp
+	"aiship.h"
+	"logger.h"
+

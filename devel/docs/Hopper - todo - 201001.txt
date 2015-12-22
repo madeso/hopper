@@ -1,0 +1,110 @@
+
+Hopper todo :
+-------------
+
+Technique:
+==========
+
+- modèles de collision plus simples pour les trimesh
+
+- modes online/offline pour les objets ( désactivation de l'AI / sons / collisions pour objets trop loins de la caméra )
+
+- terrain plus grand
+
+- trimesh terrain avec des tiles comme Lander ? => intégration des niveaux interieur/extérieur.
+
+- utilisation des boites de gameplay pour les différents modes ( passage à travers les anneaux, par ex. )
+
+- possibilité d'avoir des spheres de gameplay en plus des boites
+
+- implémenter la notion de processus ou de tâche plutôt que de lancer des managers différenciés
+
+- physiques pour FPS != 60
+
+
+
+Apparence:
+==========
+
+- revoir particules pour les explosions
+
+- revoir fenêtre "press thrust to continue"
+
+- revoir affichage fenêtre "input configuration" ( texte trop grand )
+
+- sons dans la GUI
+
+- GUI : mouvement de fenêtres ( quand création/destruction )
+
+- fenetre input config trop grande pour le 640x480
+
+- Fumée pour le lander explosé
+
+
+Gameplay:
+=========
+
+- mode random :
+	- génération de terrain => générer une image / un heightfield
+	- placement des objets => modifier l'image
+
+- mode de jeu "ranges ta chambre" :
+	- ajouter un "bac" dans lequel poser les objets
+	- détection du nombre d'objets dans le bac
+
+
+- timer pour le mode course et le mode landing
+	 - comment gérer le timer ? 
+	 	=> timeout ( comment calculer un temps maximal si gestion aléatoire ? )
+		=> comptage du temps uniquement
+	- all of fame ?
+
+
+- mode "racing"
+	- possibilité de prendre du carburant pendant la course
+	- plusieurs tours possibles ?
+
+
+- différents types d'explosion ( avec ou sans souffle ( grosses / petites ) )
+
+
+
+Ennemis :
+	- refaire les tourelles de première catégorie
+	- ajouter d'autres tourelles/projectiles ( missiles simples, missiles guidés )
+
+	- ennemis volants ???
+		- voir AI
+
+	- mines
+
+
+Obstacles :
+	- champs de force
+	- champ de répulsion / ventilateurs
+	- pilons/broyeurs
+	- turbines ( gros objets en lente rotation )
+	- jets :  de feu / de glace ( depuis fuites de tuyaux / éruptions  ? ) ?  
+	
+
+
+Mode mission :
+	- générer les corridors
+		- portes ( clés ?, interrupteurs ? )
+		- ascenceurs ?
+		- parties de corridors pré-designés ( pièces moins carrées ).
+		- essais techniques avec CSG
+
+	- placement des objets dans les "pièces"
+
+	- gestion des objectifs
+		- apporter/déposer un(plusieurs) objet dans une base
+		- détruire quelque chose dans une base ( avec timeout pour sortir de la base ? )
+		- prendre un objet dans la base et sortir
+
+
+
+
+
+
+

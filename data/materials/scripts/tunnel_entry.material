@@ -1,0 +1,31 @@
+
+material tunnel_entry/black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.372549 0.372549 0.372549 1
+			diffuse 0 0 0 1
+		}
+
+	}
+
+}
+
+material tunnel_entry/cube1_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture barrel1.png
+			}
+		}
+
+	}
+
+}

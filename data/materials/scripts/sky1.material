@@ -1,0 +1,29 @@
+material sky/sky1
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			fog_override true
+			// No dynamic lighting, fully lit
+			lighting off
+
+			// Depth writing off (always display stuff in front of it)
+			depth_write on
+
+			// Texture layer 0
+			texture_unit
+			{
+				// 6-sided texture, stevecube_fr.jpg, stevecube_up.jpg etc
+				// cubic_texture desert07_FR.jpg desert07_BK.jpg desert07_LF.jpg desert07_RT.jpg desert07_UP.jpg desert07_DN.jpg separateUV
+				// clamp to avoid fuzziness at edges due to filtering
+				// tex_address_mode clamp
+
+				// curved skyplane
+				texture sky1.png
+			}
+		}
+	}
+}
+

@@ -1,0 +1,96 @@
+
+
+
+material overlay3D/base
+{
+	receive_shadows off
+
+	technique
+	{
+		pass 0
+		{
+			colour_write off
+			depth_write on
+			depth_func always_pass
+		}
+		pass 1
+		{
+			colour_write on
+			max_lights 0
+			lighting on
+			shading flat
+		    ambient 0.0 0.0 0.0 1.0	
+		}
+
+
+	}
+}
+
+
+
+
+material ghostlander/color_000_128_00 : overlay3D/base
+{
+	technique 0
+	{
+		pass 1
+		{
+			emissive 0 0.8 0 0
+		}
+	}
+}
+
+material ghostlander/color_177_003_00 : overlay3D/base
+{
+	technique 0
+	{
+		pass 1
+		{
+			emissive 0.8 0 0 0
+		}
+
+	}
+
+}
+
+material ghostlander/color_256_000_00 : overlay3D/base
+{
+	technique 0
+	{
+		pass 1
+		{
+			emissive 0.8 0 0 0
+		}
+
+	}
+
+}
+
+
+material arrow/arrow : overlay3D/base
+{
+	technique 0
+	{
+		pass 1
+		{
+			emissive 0 0.8 0 0
+		}
+
+	}
+
+}
+
+
+material arrow/arrowred : overlay3D/base
+{
+	technique 0
+	{
+		pass 1
+		{
+			emissive 0.8 0 0 0
+		}
+
+	}
+
+}
+

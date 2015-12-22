@@ -1,0 +1,44 @@
+
+material hopper12/lander_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material hopper12/light
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+material hopper12/thruster
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.32549 0.32549 0.32549 1
+			diffuse 0.333333 0.333333 0.333333 1
+		}
+
+	}
+
+}

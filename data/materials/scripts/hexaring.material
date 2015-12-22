@@ -1,0 +1,39 @@
+
+material hexaring/hexaring_edge
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.466667 0.764706 0.945098 1
+		}
+
+	}
+
+}
+
+material hexaring/hexaring_inner
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.337255 0.619608 1 1
+		}
+
+	}
+
+}
+
+material hexaring/hexaring_outter
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0.407843 0.639216 1
+		}
+
+	}
+
+}

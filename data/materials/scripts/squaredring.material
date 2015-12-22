@@ -1,0 +1,39 @@
+
+material squaredring/squaredring_edge
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 0 1
+		}
+
+	}
+
+}
+
+material squaredring/squaredring_inne
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0.572549 0 1
+		}
+
+	}
+
+}
+
+material squaredring/squaredring_outt
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0.196078 0.196078 1
+		}
+
+	}
+
+}

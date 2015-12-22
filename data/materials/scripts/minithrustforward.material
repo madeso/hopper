@@ -1,0 +1,12 @@
+
+material minithrustforward/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}

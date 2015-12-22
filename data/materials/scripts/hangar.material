@@ -1,0 +1,13 @@
+
+material hangar/hangar
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.478431 0.345098 0.286275 1
+		}
+
+	}
+
+}

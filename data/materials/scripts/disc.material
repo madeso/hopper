@@ -1,0 +1,13 @@
+
+material disc/disc
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0.886275 0 1
+		}
+
+	}
+
+}

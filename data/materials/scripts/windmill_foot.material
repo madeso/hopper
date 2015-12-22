@@ -1,0 +1,12 @@
+
+material windmill_foot/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}

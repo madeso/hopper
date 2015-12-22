@@ -1,0 +1,27 @@
+
+material ring/blue
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0.341176 0.686275 1
+		}
+
+	}
+
+}
+
+material ring/green
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0.772549 0 1
+			emissive 0 0.7 0 1
+		}
+
+	}
+
+}

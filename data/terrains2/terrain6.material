@@ -1,0 +1,28 @@
+
+material terrain/6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 1 1 1 
+
+			texture_unit
+			{
+				texture terrain6_texture.png
+			}	
+
+			texture_unit
+			{ 
+				colour_op add
+                // colour_op_ex add src_current src_specular 
+                texture terrain6_effect.png
+            } 
+
+		}
+
+	}
+
+}

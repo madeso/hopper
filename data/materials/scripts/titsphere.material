@@ -1,0 +1,14 @@
+
+material titsphere/default
+{
+	technique
+	{
+		pass
+		{
+		//	scene_blend alpha
+			diffuse 1 0 0 0.3
+		}
+
+	}
+
+}

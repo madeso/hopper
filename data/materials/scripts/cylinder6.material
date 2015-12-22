@@ -1,0 +1,17 @@
+
+material cylinder6/cylinder4_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture auvBG.png
+			}
+		}
+
+	}
+
+}

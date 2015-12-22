@@ -1,0 +1,172 @@
+
+material DynaGUI.Window
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture bgui.window.png
+			}
+		}
+	}
+}
+
+material DynaGUI.Window.TitleBar
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture dgui.window.titlebar.png
+			}
+		}
+	}
+}
+
+
+material DynaGUI.MousePointer
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			diffuse 1 1 1
+			// specular 1 1 1 30
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture dgui.pointer.png
+			}
+		}
+	}
+}
+
+material DynaGUI.Button
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			diffuse 1 1 1
+			// specular 1 1 1 30
+			// scene_blend alpha_blend
+			texture_unit
+			{
+				texture dgui.button.png
+			}
+		}
+	}
+}
+
+material DynaGUI.Button.Active
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			diffuse 1 1 1
+			// specular 1 1 1 30
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture dgui.button.active.png
+			}
+		}
+	}
+}
+
+material DynaGUI.ProgressBar
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			diffuse 1 1 1
+			// specular 1 1 1 30
+			// scene_blend add
+			texture_unit
+			{
+				texture dgui.progressbar.png
+			}
+		}
+	}
+}
+
+material DynaGUI.Checkbox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			diffuse 1 1 1
+			// specular 1 1 1 30
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture dgui.checkbox2.png
+			}
+		}
+	}
+}
+
+material DynaGUI.Checkbox.Checked
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			diffuse 1 1 1
+			// specular 1 1 1 30
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture dgui.checkbox.checked2.png
+			}
+		}
+	}
+}
+
+
+material DynaGUI.SubWindow
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1
+			diffuse 1 1 1
+			// specular 1 1 1 30
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture dgui.subwindow.png
+			}
+		}
+	}
+}
+
+
+

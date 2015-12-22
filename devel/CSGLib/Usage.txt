@@ -1,0 +1,16 @@
+Features: Entity Boolean Operation : Union, Intersection, Difference
+
+Changed from Original: add UV Texture coordinate support, Memory leak bug fix, remove OpenGL dependency and some data management code.
+
+Known Issue: Newly generated face will have same UV coordinate. I can't figure out how to assign UV for new faces. :oops:
+Not fully tested under various situation. It will not work on mesh with more than 10000 vertex.
+
+Usage:
+#include "cvCSGOgreWrapper.h"
+void cvEntityBoolean(const std::string& MeshName, Ogre::Entity *Ent1, Ogre::Entity *Ent2, evCSG_OPER Op);
+or
+void cvEntityUnion(const std::string& MeshName, Ogre::Entity *Ent1, Ogre::Entity *Ent2);
+void cvEntityIntersection(const std::string& MeshName, Ogre::Entity *Ent1, Ogre::Entity *Ent2);
+void cvEntityDifference(const std::string& MeshName, Ogre::Entity *Ent1, Ogre::Entity *Ent2);
+
+The result mesh will be created by given name. You can create entity with newly generated mesh name.

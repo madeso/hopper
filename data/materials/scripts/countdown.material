@@ -1,0 +1,89 @@
+
+material countdown.base
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+		}
+	}
+}
+
+
+material countdown.void : countdown.base
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nothing.png
+			}
+		}
+	}
+}
+
+
+
+material countdown.three : countdown.base
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture three.png
+			}
+		}
+	}
+}
+
+material countdown.two : countdown.base
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture two.png
+			}
+		}
+	}
+}
+
+material countdown.one : countdown.base
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture one.png
+			}
+		}
+	}
+}
+
+material countdown.go : countdown.base
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture go.png
+			}
+		}
+	}
+}
+
+
+

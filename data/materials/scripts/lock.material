@@ -1,0 +1,13 @@
+
+material lock/lock
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.662745 0.85098 0.215686 1
+		}
+
+	}
+
+}

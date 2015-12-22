@@ -1,0 +1,37 @@
+
+material PSLogo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture PolygonSoupLogo.png
+			}
+		}
+	}
+}
+
+material PSLogo2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture PolygonSoupLogo4.png
+			}
+		}
+	}
+}
+

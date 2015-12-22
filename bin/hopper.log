@@ -1,0 +1,319 @@
+Hopper.log
+==========
+
+
+Screen init...
+	loading and parsing hopper.conf...
+done.
+Timemanager init...	done.
+
+Inputmanager init...
+InputManager init...
+ ************ 0 joysticks detected	done.
+
+Inputconfig manager init...
+	found 5 configurations and 31 input actions !
+Loading input actions...done.
+Loading input actions...done.
+Loading input actions...done.
+Loading input actions...done.
+Loading input actions...done.
+	applying the default configuration... 
+done.	done.
+
+Resourcemanager init...	done.
+
+Loading splash screen resources...	 displaying splash... 		done.
+Soundmanager init...
+SoundManager: init
+SoundManager: This system will use a maximum of 32 sound sources	done.
+
+Loading resources...	done.
+Scenemanager init...	done.
+Gamemanager init...
+******* Starting with the menu ***********
+CLevelInfo::getMaxLevels() => got 3
+CLevelInfo::getLevelID(): got level 4 for gameType = 1 and gameOrder = 3
+
+===========================================
+New Game with level #4
+===========================================
+
+Setting Physics parameters... OK 
+Creating the particleEmitterManager... done.
+CLevel : Loading level... 
+CLevel::initObjectDef : Reading objects definition... Done.
+CLevel : info : found 26 object definitions
+CLevel::load : level#4 => name: landing3 
+CLevel::load : Creating the terrain.
+CGround::CGround() : new Terrain 
+CLevel::load : fog color = 0xc3c595 
+CLevel::load : gravity = -5.679993 
+CLevel::load : Creating the cloudlayer at 500
+Creating the clouds billboardset...done.===> ship0 <===
+
+CShip::CShip() 
+CShip::CShip() : creating thrusters
+CThruster::CTruster() : creating terrain smoke emitter...okok.
+ =============== Ship : init done. =============> fan0 <===
+===> windmill0 <===
+===> landing pad0 <===
+===> landing pad1 <===
+===> mine0 <===
+
+CLevel : info : created 6 objects
+CLevel : creating sun... 
+Ode Terrain : mScale = 4.000000,256.000000,4.000000 / mNodes_per_side = 513.000000 
+
+CGame game objects got.
+CGame init done.
+
+
+======================
+= Menu               =
+======================
+
+ Init CMenu OK 
+	done.
+
+Entering mainloop...
+
+ *** new input window !! ***
+CInputConfigWindow()
+~CInputConfigWindow() ... done.
+~CMenu()
+~CMenu() : destroying windows...
+~CMenu() : destroying menu window...
+~CMenu() : destroying Logo window...
+~CMenu() : destroying 'Powered by' window...
+~CMenu() : done 
+ ----------------------------------------------
+CGame::~CGame()
+killing the projectile manager... Ok.
+~CLevel : Deleting objects...
+	~CThruster()  done.
+...done deleting CShip 
+CMine::~CMine()done.
+~CLevel : Deleting sun...done.
+~CLevel : Deleting clouds...done.
+~CLevel : Deleting terrain ... done.~CLevel : done.
+killing the collision manager...
+ Destroying Hopper Collision Manager done.
+Ok.
+killing the physics manager...
+	killing the collision manager...OK.
+	deleting the phys stepper...OK.
+	deleting the physics world...OK.
+Ok.
+~CGame : deleting the FPS window...Ok.
+killing the explosion manager...
+Ok.
+killing the particle manager...
+ParticleEmitterManager : destroying...
+ done.
+Ok.
+~CGame : killing the scene manager...Ok.
+CLevelInfo::getMaxLevels() => got 3
+CLevelInfo::getLevelID(): got level 2 for gameType = 1 and gameOrder = 1
+
+===========================================
+New Game with level #2
+===========================================
+
+Setting Physics parameters... OK 
+Creating the particleEmitterManager... done.
+CLevel : Loading level... 
+CLevel::initObjectDef : Reading objects definition... Done.
+CLevel : info : found 26 object definitions
+CLevel::load : level#2 => name: landing1 
+CLevel::load : Creating the terrain.
+CGround::CGround() : new Terrain 
+CLevel::load : fog color = 0x5a483a 
+CLevel::load : gravity = -4.000000 
+CLevel::load : Creating the cloudlayer at 500
+Creating the clouds billboardset...done.===> landing pad0 <===
+===> landing pad1 <===
+===> landing pad2 <===
+===> landing pad3 <===
+===> landing pad4 <===
+===> landing pad5 <===
+===> landing pad6 <===
+===> ship0 <===
+
+CShip::CShip() 
+CShip::CShip() : creating thrusters
+CThruster::CTruster() : creating terrain smoke emitter...okok.
+ =============== Ship : init done. =============> windmill0 <===
+===> windmill1 <===
+===> mine0 <===
+===> rock10 <===
+===> hexaring0 <===
+===> rocket0 <===
+===> slab0 <===
+===> test cube0 <===
+===> testball0 <===
+===> test cube1 <===
+===> test cube2 <===
+===> test cube3 <===
+===> test cube4 <===
+===> test cube5 <===
+===> mine1 <===
+===> slab1 <===
+===> turet10 <===
+===> turet11 <===
+===> plant10 <===
+===> lock0 <===
+
+CLevel : info : created 28 objects
+CLevel : creating sun... 
+Ode Terrain : mScale = 4.000000,256.000000,4.000000 / mNodes_per_side = 513.000000 
+
+CGame game objects got.
+CGame init done.
+
+=== Gameplay Landing init ===
+CGameplayLanding::CGameplayLanding : Creating game windows...OK.
+CGameplayLanding::CGameplayLanding : creating the ship controller...OK.
+CGameplayLanding::CGameplayLanding() : done.
+CGameSequenceManager::addSequence() "Landing gameplay"
+CMine::die() !
+CExplosionManager::createExplosion() : new explosion type : 2
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable mine1 (064BAD30) => actor 0578B310
+CBlast::action() ...  done.
+Game::coreGameplay() : deleting mine
+CMine::~CMine()
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CTriggerBox::update() : movable test cube2 (064B6B30) => actor 020E54F0
+CBlast::action() ...  done.
+CGameSequenceManager::addSequence() "refueling"
+CGameSequenceManager::run() => removing "Landing gameplay"
+CGameSequenceManager::addSequence() "Landing Gameplay"
+CGameSequenceManager::run() => removing "refueling"
+ *** new input window !! ***
+CInputConfigWindow()
+~CInputConfigWindow() ... done.
+CGameSequenceManager::addSequence() "gameover"
+CGameSequenceManager::addSequence() "pause"
+CGameSequenceManager::addSequence() "waitforinput"
+CGameSequenceManager::run() => removing "Landing Gameplay"
+CGameSequenceManager::run() => removing "gameover"
+CGameSequenceManager::run() => removing "pause"
+CGameSequenceManager::run() => removed dependency on "waitforinput"
+CGameSequenceManager::run() => removing "waitforinput"
+ ----------------------------------------------
+CGame::~CGame()
+killing the projectile manager... Ok.
+~CLevel : Deleting objects...
+	~CThruster()  done.
+...done deleting CShip 
+CMine::~CMine()done.
+~CLevel : Deleting sun...done.
+~CLevel : Deleting clouds...done.
+~CLevel : Deleting terrain ... done.~CLevel : done.
+killing the collision manager...
+ Destroying Hopper Collision Manager done.
+Ok.
+killing the physics manager...
+	killing the collision manager...OK.
+	deleting the phys stepper...OK.
+	deleting the physics world...OK.
+Ok.
+~CGame : deleting the FPS window...Ok.
+killing the explosion manager...
+Ok.
+killing the particle manager...
+ParticleEmitterManager : destroying...
+ done.
+Ok.
+~CGame : killing the scene manager...Ok.
+CLevelInfo::getMaxLevels() => got 3
+CLevelInfo::getLevelID(): got level 3 for gameType = 1 and gameOrder = 2
+
+===========================================
+New Game with level #3
+===========================================
+
+Setting Physics parameters... OK 
+Creating the particleEmitterManager... done.
+CLevel : Loading level... 
+CLevel::initObjectDef : Reading objects definition... Done.
+CLevel : info : found 26 object definitions
+CLevel::load : level#3 => name: level 
+CLevel::load : Creating the terrain.
+CGround::CGround() : new Terrain 
+CLevel::load : fog color = 0x9ba08c 
+CLevel::load : gravity = -4.549967 
+CLevel::load : Creating the cloudlayer at 500
+Creating the clouds billboardset...done.===> ship0 <===
+
+CShip::CShip() 
+CShip::CShip() : creating thrusters
+CThruster::CTruster() : creating terrain smoke emitter...okok.
+ =============== Ship : init done. =============> landing pad0 <===
+===> landing pad1 <===
+===> landing pad2 <===
+===> landing pad3 <===
+===> landing pad4 <===
+
+CLevel : info : created 6 objects
+CLevel : creating sun... 
+Ode Terrain : mScale = 4.000000,256.000000,4.000000 / mNodes_per_side = 513.000000 
+
+CGame game objects got.
+CGame init done.
+
+
+======================
+= Menu               =
+======================
+
+ Init CMenu OK 
+
+~CMenu()
+~CMenu() : destroying windows...
+~CMenu() : destroying menu window...
+~CMenu() : destroying Logo window...
+~CMenu() : destroying 'Powered by' window...
+~CMenu() : done 
+ ----------------------------------------------
+CGame::~CGame()
+killing the projectile manager... Ok.
+~CLevel : Deleting objects...
+	~CThruster()  done.
+...done deleting CShip done.
+~CLevel : Deleting sun...done.
+~CLevel : Deleting clouds...done.
+~CLevel : Deleting terrain ... done.~CLevel : done.
+killing the collision manager...
+ Destroying Hopper Collision Manager done.
+Ok.
+killing the physics manager...
+	killing the collision manager...OK.
+	deleting the phys stepper...OK.
+	deleting the physics world...OK.
+Ok.
+~CGame : deleting the FPS window...Ok.
+killing the explosion manager...
+Ok.
+killing the particle manager...
+ParticleEmitterManager : destroying...
+ done.
+Ok.
+~CGame : killing the scene manager...Ok.
+...Out of mainloop
+deleting logger...

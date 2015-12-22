@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Hopper" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[To Do:
+* major cleaning of unused comments
+* more comments !
+
+* voir comment changer la réso sans redémarrer avec Ogre
+=> hopper.conf : reste a implémenter le changement de résolution dans l'interface graphique. => Devrais nécessiter le redémarrage du jeu.
+
+* corriger ode et OgreOde pour le height(float, float ) => recompil
+=> testé : marche po. 
+=> version 0.11.1 de ode semble plus stable, même s'il y a toujours des "trous" dans le terrain...
+
+* corriger bug décollage du vaisseau au début de partie
+=> semble ok
+
+* tester la frame-independance
+=> voir le stepper... ( CPhysicsManager )
+
+* include les images de souris et boutons pour le tuto
+=> intégrer nouvelle GUI
+
+* corriger bug de relicat de déplacement pour les tutos roll et pitch
+=> mieux mais bug toujours présent. Peut-être recréer le vaisseau à chaque début de tutorial.
+
+* implémenter le tir
+=> done. Reste a régler la vitesse du projectile en fonction de la vitesse du vaisseau
+
+* implémenter le tractor beam
+
+* refaire explosion du vaisseau : vaisseau en plusieurs parties ??
+=> a faire : désactivation du physical actor, masquage du mesh et creation de 2 ou trois parties en physical actors ?
+
+* revoir le déplacement du vaisseau : ne devrait pas être dans la classe Ship
+=> fait : CShipControllers
+
+* voir pour les objets 3D de GUI : ajouter un material qui clear le z-buffer
+=> astuce utilisée : bidouille des materials ( 2 passes )
+
+* implémenter le fade to black
+
+* implémenter le gestionnaire d'evennements / job manager
+=> fait ( à part ) : besoin réel difficile à voir. A essayer dans un futur projet.
+
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="debug">
+				<Option output="..\bin_debug\hopper_d.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="..\bin_debug\" />
+				<Option object_output="..\bin_debug\.dbgobjs" />
+				<Option deps_output="..\..\hoper_debug\.deps" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="OgreMain_d" />
+					<Add library="Plugin_OctreeSceneManager_d" />
+					<Add library="OIS_d" />
+					<Add library="OgreOde_Core_d" />
+					<Add directory="..\bin_debug" />
+				</Linker>
+				<Environment>
+					<Variable name="target" value="debug" />
+				</Environment>
+			</Target>
+			<Target title="release">
+				<Option output="..\bin\hopper.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="..\bin" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-march=pentium2" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="OgreMain" />
+					<Add library="Plugin_OctreeSceneManager" />
+					<Add library="OIS" />
+					<Add library="OgreOde_Core" />
+					<Add directory="..\bin" />
+				</Linker>
+				<Environment>
+					<Variable name="target" value="release" />
+				</Environment>
+			</Target>
+			<Target title="app_debug">
+				<Option output="..\bin\hopper_d.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="..\bin" />
+				<Option object_output="..\bin_debug\.dbgobjs" />
+				<Option deps_output="..\..\hoper_debug\.deps" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="OgreMain" />
+					<Add library="Plugin_OctreeSceneManager" />
+					<Add library="OIS" />
+					<Add library="OgreOde_Core" />
+					<Add directory="..\bin" />
+				</Linker>
+				<Environment>
+					<Variable name="target" value="debug" />
+				</Environment>
+			</Target>
+			<Environment>
+				<Variable name="OGREODE_HOME" value="$(OGRE_HOME)\OgreOde" />
+				<Variable name="OGRE_HOME" value="U:\Dev\OgreSDKMingw161" />
+			</Environment>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="debug;release;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="$(OGREODE_HOME)\ode\include" />
+			<Add directory="$(OGREODE_HOME)\include" />
+			<Add directory="$(OGRE_HOME)\include" />
+			<Add directory="$(OGRE_HOME)\include\opt" />
+			<Add directory=".\framework" />
+			<Add directory=".\game" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,--heap,16384,--stack,16384,--enable-auto-import" />
+			<Add library="$(DEPLIBS)\libsqlite3x.a" />
+			<Add library="$(DEPLIBS)\libsqlite3.a" />
+			<Add library="openAL32" />
+			<Add library="alut" />
+		</Linker>
+		<Unit filename="framework\actor.cpp" />
+		<Unit filename="framework\actor.h" />
+		<Unit filename="framework\basewindow.h" />
+		<Unit filename="framework\camera.cpp" />
+		<Unit filename="framework\camera.h" />
+		<Unit filename="framework\collisionmanager.cpp" />
+		<Unit filename="framework\collisionmanager.h" />
+		<Unit filename="framework\configfile.h" />
+		<Unit filename="framework\debugwindow.cpp" />
+		<Unit filename="framework\debugwindow.h" />
+		<Unit filename="framework\delay.cpp" />
+		<Unit filename="framework\delay.h" />
+		<Unit filename="framework\dynagui.cpp" />
+		<Unit filename="framework\dynagui.h" />
+		<Unit filename="framework\fpswindow.cpp" />
+		<Unit filename="framework\fpswindow.h" />
+		<Unit filename="framework\gamepausedwindow.cpp" />
+		<Unit filename="framework\gamepausedwindow.h" />
+		<Unit filename="framework\inputactions.cpp" />
+		<Unit filename="framework\inputactions.h" />
+		<Unit filename="framework\inputconfiguration.cpp" />
+		<Unit filename="framework\inputconfiguration.h" />
+		<Unit filename="framework\inputconfigurationmanager.cpp" />
+		<Unit filename="framework\inputconfigurationmanager.h" />
+		<Unit filename="framework\inputconfigwindow.cpp" />
+		<Unit filename="framework\inputconfigwindow.h" />
+		<Unit filename="framework\inputconstants.h" />
+		<Unit filename="framework\inputmanager.cpp" />
+		<Unit filename="framework\inputmanager.h" />
+		<Unit filename="framework\light.cpp" />
+		<Unit filename="framework\light.h" />
+		<Unit filename="framework\logger.cpp" />
+		<Unit filename="framework\logger.h" />
+		<Unit filename="framework\particleemitter.cpp" />
+		<Unit filename="framework\particleemitter.h" />
+		<Unit filename="framework\particleemittermanager.cpp" />
+		<Unit filename="framework\particleemittermanager.h" />
+		<Unit filename="framework\particleemitterpool.cpp" />
+		<Unit filename="framework\particleemitterpool.h" />
+		<Unit filename="framework\physicobject.cpp" />
+		<Unit filename="framework\physicobject.h" />
+		<Unit filename="framework\physicsmanager.cpp" />
+		<Unit filename="framework\physicsmanager.h" />
+		<Unit filename="framework\resourcemanager.cpp" />
+		<Unit filename="framework\resourcemanager.h" />
+		<Unit filename="framework\scenemanager.cpp" />
+		<Unit filename="framework\scenemanager.h" />
+		<Unit filename="framework\screen.cpp" />
+		<Unit filename="framework\screen.h" />
+		<Unit filename="framework\singleton.h" />
+		<Unit filename="framework\sound.cpp" />
+		<Unit filename="framework\sound.h" />
+		<Unit filename="framework\soundconfigwindow.cpp" />
+		<Unit filename="framework\soundconfigwindow.h" />
+		<Unit filename="framework\soundmanager.cpp" />
+		<Unit filename="framework\soundmanager.h" />
+		<Unit filename="framework\timemanager.cpp" />
+		<Unit filename="framework\timemanager.h" />
+		<Unit filename="framework\videoconfigwindow.cpp" />
+		<Unit filename="framework\videoconfigwindow.h" />
+		<Unit filename="game\AIShipControllers.cpp" />
+		<Unit filename="game\AIShipControllers.h" />
+		<Unit filename="game\CameraControllers.cpp" />
+		<Unit filename="game\CameraControllers.h" />
+		<Unit filename="game\CountDown.cpp" />
+		<Unit filename="game\CountDown.h" />
+		<Unit filename="game\GameSequenceManager.cpp" />
+		<Unit filename="game\GameSequenceManager.h" />
+		<Unit filename="game\GameSequences.cpp" />
+		<Unit filename="game\GameSequences.h" />
+		<Unit filename="game\NewGameWindow.cpp" />
+		<Unit filename="game\NewGameWindow.h" />
+		<Unit filename="game\PlayerControlledShipControllers.cpp" />
+		<Unit filename="game\PlayerControlledShipControllers.h" />
+		<Unit filename="game\PoweredByWindow.cpp" />
+		<Unit filename="game\PoweredByWindow.h" />
+		<Unit filename="game\TractorBeam.cpp" />
+		<Unit filename="game\TractorBeam.h" />
+		<Unit filename="game\astrum.cpp" />
+		<Unit filename="game\astrum.h" />
+		<Unit filename="game\clouds.cpp" />
+		<Unit filename="game\clouds.h" />
+		<Unit filename="game\dialogbox.cpp" />
+		<Unit filename="game\dialogbox.h" />
+		<Unit filename="game\directionarrowwindow.cpp" />
+		<Unit filename="game\directionarrowwindow.h" />
+		<Unit filename="game\editorwindows.cpp" />
+		<Unit filename="game\editorwindows.h" />
+		<Unit filename="game\explosion.cpp" />
+		<Unit filename="game\explosion.h" />
+		<Unit filename="game\explosionmanager.cpp" />
+		<Unit filename="game\explosionmanager.h" />
+		<Unit filename="game\fan.cpp" />
+		<Unit filename="game\fan.h" />
+		<Unit filename="game\game.cpp" />
+		<Unit filename="game\game.h" />
+		<Unit filename="game\gameconstants.h" />
+		<Unit filename="game\gamemanager.cpp" />
+		<Unit filename="game\gamemanager.h" />
+		<Unit filename="game\gamemessagewindow.cpp" />
+		<Unit filename="game\gamemessagewindow.h" />
+		<Unit filename="game\gamepart.h" />
+		<Unit filename="game\gameplaylanding.cpp" />
+		<Unit filename="game\gameplaylanding.h" />
+		<Unit filename="game\gameplayracing.cpp" />
+		<Unit filename="game\gameplayracing.h" />
+		<Unit filename="game\gameplaytest.cpp" />
+		<Unit filename="game\gameplaytest.h" />
+		<Unit filename="game\gameplaytutorial.cpp" />
+		<Unit filename="game\gameplaytutorial.h" />
+		<Unit filename="game\ground.cpp" />
+		<Unit filename="game\ground.h" />
+		<Unit filename="game\hopper.cpp" />
+		<Unit filename="game\hoppercollisionmanager.cpp" />
+		<Unit filename="game\hoppercollisionmanager.h" />
+		<Unit filename="game\hoppercollisionmaterials.h" />
+		<Unit filename="game\hopperinputactions.h" />
+		<Unit filename="game\hopperparticles.h" />
+		<Unit filename="game\hoppersounds.h" />
+		<Unit filename="game\intro.cpp" />
+		<Unit filename="game\intro.h" />
+		<Unit filename="game\landingpad.cpp" />
+		<Unit filename="game\landingpad.h" />
+		<Unit filename="game\level.cpp" />
+		<Unit filename="game\level.h" />
+		<Unit filename="game\leveleditor.cpp" />
+		<Unit filename="game\leveleditor.h" />
+		<Unit filename="game\levelinfo.cpp" />
+		<Unit filename="game\levelinfo.h" />
+		<Unit filename="game\menu.cpp" />
+		<Unit filename="game\menu.h" />
+		<Unit filename="game\mine.cpp" />
+		<Unit filename="game\mine.h" />
+		<Unit filename="game\objecttypes.h" />
+		<Unit filename="game\optionmanager.cpp" />
+		<Unit filename="game\optionmanager.h" />
+		<Unit filename="game\optionswindow.cpp" />
+		<Unit filename="game\optionswindow.h" />
+		<Unit filename="game\positionalthruster.cpp" />
+		<Unit filename="game\positionalthruster.h" />
+		<Unit filename="game\projectilemanager.cpp" />
+		<Unit filename="game\projectilemanager.h" />
+		<Unit filename="game\projectiles.cpp" />
+		<Unit filename="game\projectiles.h" />
+		<Unit filename="game\ring.cpp" />
+		<Unit filename="game\ring.h" />
+		<Unit filename="game\ship.cpp" />
+		<Unit filename="game\ship.h" />
+		<Unit filename="game\shipcontroller.h" />
+		<Unit filename="game\shiporientationwindow.cpp" />
+		<Unit filename="game\shiporientationwindow.h" />
+		<Unit filename="game\shipstatwindow.cpp" />
+		<Unit filename="game\shipstatwindow.h" />
+		<Unit filename="game\splash.cpp" />
+		<Unit filename="game\splash.h" />
+		<Unit filename="game\sun.cpp" />
+		<Unit filename="game\sun.h" />
+		<Unit filename="game\thruster.cpp" />
+		<Unit filename="game\thruster.h" />
+		<Unit filename="game\triggerbox.cpp" />
+		<Unit filename="game\triggerbox.h" />
+		<Unit filename="game\triggerboxmanager.cpp" />
+		<Unit filename="game\triggerboxmanager.h" />
+		<Unit filename="game\tunnels.cpp" />
+		<Unit filename="game\tunnels.h" />
+		<Unit filename="game\turret.cpp" />
+		<Unit filename="game\turret.h" />
+		<Unit filename="game\tutorialpartbox.cpp" />
+		<Unit filename="game\tutorialpartbox.h" />
+		<Unit filename="game\tutorialpartgravity.cpp" />
+		<Unit filename="game\tutorialpartgravity.h" />
+		<Unit filename="game\tutorialpartorientation.cpp" />
+		<Unit filename="game\tutorialpartorientation.h" />
+		<Unit filename="game\tutorialpartpitch.cpp" />
+		<Unit filename="game\tutorialpartpitch.h" />
+		<Unit filename="game\tutorialpartroll.cpp" />
+		<Unit filename="game\tutorialpartroll.h" />
+		<Unit filename="game\tutpart.h" />
+		<Unit filename="game\version.h" />
+		<Unit filename="game\windmill.cpp" />
+		<Unit filename="game\windmill.h" />
+		<Unit filename="hopper.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<AutoVersioning>
+				<Scheme minor_max="1000" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="1" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="svn://dandrite/dev/hopper" header_path="game/version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

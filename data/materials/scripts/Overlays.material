@@ -1,0 +1,180 @@
+
+material Hoper/OverlayBackground
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture border.png
+			}
+		}
+	}
+}
+
+material Hoper/Logo
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture Hopperlogo2.png
+			}
+		}
+	}
+}
+
+
+material Hoper/FuelProgressBar
+{
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			depth_check off
+			texture_unit 
+			{
+				texture gauge3.png
+			}
+		}
+	}
+}
+
+material Hoper/HullProgressBar
+{
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			depth_check off
+			texture_unit 
+			{
+				texture gauge2.png
+			}
+		}
+	}
+}
+
+material Hoper/BasicProgressBar
+{
+	technique 
+	{
+		pass 
+		{
+			lighting off
+			depth_check off
+			texture_unit 
+			{
+				texture gauge1.png
+			}
+		}
+	}
+}
+
+
+material Logo/Ogre
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture ogre_logo.png
+			}
+		}
+	}
+}
+
+material Logo/OgreOde
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture OgreOde_Logo.png
+			}
+		}
+	}
+}
+
+
+
+material Logo/ODE
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture ODE_logo.png
+			}
+		}
+	}
+}
+
+material Logo/OpenAL
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture openal_logo.png
+			}
+		}
+	}
+}
+
+material Logo/SQlite
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture SQLite_logo.png
+			}
+		}
+	}
+}
+
+

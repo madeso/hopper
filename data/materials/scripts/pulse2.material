@@ -1,0 +1,21 @@
+
+material pulse2/pulse
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			emissive 1 1 1 1
+			depth_write off
+			texture_unit
+			{
+				texture pulse2.png
+			}
+		}
+
+	}
+
+}

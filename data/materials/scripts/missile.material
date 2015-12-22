@@ -1,0 +1,12 @@
+
+material missile/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}

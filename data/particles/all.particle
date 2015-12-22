@@ -1,0 +1,418 @@
+particle_system airdust
+{
+	quota	1500
+	material	hoper/dust
+	particle_width	2
+	particle_height	2
+	cull_each	false
+	renderer	billboard
+
+	emitter Box
+	{
+		width	300
+		height	300
+		depth	300
+		angle	0
+		colour	0.4 0.4 0.4 0.5
+//		colour_range_start	0.1 0.1 0.1 1
+//		colour_range_end	0.5 0.5 0.5 1
+		direction	0 -1 0
+		emission_rate	150
+		position	0 0 0
+		velocity	0.0
+//		velocity_min	1
+//		velocity_max	3
+		time_to_live	2
+//		time_to_live_min	5
+//		time_to_live_max	10
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+	}
+
+//	affector ColourFader
+//	{
+//		red		-0.1
+//		green	-0.1
+//		blue	-0.1
+//		alpha	-0.1
+//	}
+
+//	affector Scaler
+//	{
+//		rate	2
+//	}
+}
+
+
+
+//smoke
+
+particle_system clouds
+{
+	quota	2000
+	material	hoper/cloud
+	particle_width	20
+	particle_height	20
+	cull_each	false
+	renderer	billboard
+	point_rendering on
+
+	emitter Box
+	{
+		width	1000
+		height  10
+		depth	1000
+
+//		colour	1 1 1 1
+		direction	0 0 0
+		emission_rate	7
+		position	0 0 0
+		velocity	0
+//		time_to_live	10
+//		time_to_live_min	4
+//		time_to_live_max	10
+		duration	0
+//		repeat_delay	0
+//		repeat_delay_min	0
+//		repeat_delay_max	0
+	}
+
+}
+
+
+// collision sparks
+// emission rate should be high coz emission duration is short !
+particle_system colsparks
+{
+    material        hoper/spark
+    particle_width  0.2
+    particle_height 0.2
+    cull_each       false
+    quota           500
+//    billboard_type  oriented_self
+    
+    emitter Point
+    {
+        angle           180
+        //emission_rate   340
+        emission_rate   20
+        time_to_live    3
+        direction       0 1 0
+        velocity_min    2
+        velocity_max    5
+        colour_range_start  1 0.7 0.5
+        colour_range_end    1 1 0.8
+		duration	0.2
+    }
+
+    // Gravity
+    affector LinearForce
+    {
+        force_vector      0 -10 0
+        force_application add
+    }
+
+    // Fader
+    affector ColourFader
+    {
+        red -0.2
+        green -0.2
+        blue -0.2
+		//gamma -0.2
+    }
+}
+
+
+particle_system darksmoke
+{
+	quota	402
+	material	hoper/smoke
+	particle_width	2
+	particle_height	2
+	cull_each	false
+	renderer	billboard
+
+	emitter Point
+	{
+		angle	40
+		colour	0 0 0 1
+		direction	0 1 0
+		emission_rate	7
+		position	0 0 0
+		velocity_min	1
+		velocity_max	3
+		time_to_live_min	4
+		time_to_live_max	10
+		duration	1
+		//duration_min	0
+		//duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+	}
+
+	affector LinearForce
+    {
+        force_vector      0 3 0
+        force_application add
+    }
+
+
+
+	affector ColourFader
+	{
+		red	-0.1
+		green	-0.1
+		blue	-0.1
+		alpha	-0.3
+	}
+
+	affector Scaler
+	{
+		rate	2
+	}
+}
+
+
+particle_system explosion
+{
+    material        hoper/explosion
+    particle_width  2
+    particle_height 2
+    cull_each       true
+    quota           500
+	renderer		billboard
+    
+    emitter Point
+    {
+		// inner_width		1
+		// inner_height	1
+        angle           359
+        emission_rate   10
+        time_to_live    3
+        // direction       0 1 0
+        velocity_min    1
+        velocity_max    3
+        colour_range_start  1 0.7 0.5
+        colour_range_end    1 1 0.8
+		duration	1
+		//duration_min	0
+		//duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+    }
+
+    // Fader
+    affector ColourFader
+    {
+        red -0.3
+        green -0.3
+        blue -0.3
+		//gamma -0.4
+    }
+
+	affector Scaler
+	{
+		rate	0.8
+	}
+}
+
+
+// projectile hit sparks
+particle_system projectile
+{
+    material        hoper/spark
+    particle_width  1.0
+    particle_height 1.0
+    cull_each       false
+    quota           500
+//    billboard_type  oriented_self
+    
+    emitter Point
+    {
+        angle           180
+        //emission_rate   340
+        emission_rate   10
+        time_to_live    2
+        direction       0 1 0
+        velocity_min    1
+        velocity_max    5
+        colour_range_start  0.8 0.1 0.8
+        colour_range_end    1 1 0.8
+		duration 	0.2
+    }
+
+    // Gravity
+    affector LinearForce
+    {
+        force_vector      0 -3 0
+        force_application add
+    }
+
+    // Fader
+    affector ColourFader
+    {
+        red -0.2
+        green -0.2
+        blue -0.2
+//		  gamma -0.2
+    }
+}
+
+
+
+//smoke
+
+particle_system smoke
+{
+	quota	402
+	material	hoper/smoke
+	particle_width	2
+	particle_height	2
+	cull_each	false
+	renderer	billboard
+
+	emitter Point
+	{
+		angle	40
+//		colour	1 1 1 1
+		colour_range_start	0.7 0.6 0.6 1
+		colour_range_end	0.8 0.7 0.7 1
+		direction	0 1 0
+		emission_rate	3
+		position	0 0 0
+//		velocity	2
+		velocity_min	1
+		velocity_max	3
+//		time_to_live	10
+		time_to_live_min	4
+		time_to_live_max	10
+		duration	0.2
+		//duration_min	0
+		//duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+//		width	2
+//		height	2
+//		depth	2
+	}
+
+	affector ColourFader
+	{
+		red	-0.1
+		green	-0.1
+		blue	-0.1
+		alpha	-0.3
+	}
+
+	affector Scaler
+	{
+		rate	2
+	}
+}
+
+
+
+// ---------------- thruster smoke
+
+particle_system thruster_smoke
+{
+	quota		402
+	material	hoper/smoke
+	particle_width	2
+	particle_height	2
+	cull_each	false
+	renderer	billboard
+
+	emitter Ring
+	{
+		angle	180
+		inner_width 2
+		inner_height 0.5
+		colour	1 1 1 1
+		direction	0 0.1 0
+		emission_rate	10
+		position	0 0 0
+		velocity_min	2
+		velocity_max	4
+		time_to_live 5
+		// time_to_live_min	4
+		// time_to_live_max	10
+		duration	0.5
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width 2
+		height 2
+		depth 1
+	}
+
+	affector ColourFader
+	{
+		red	-0.1
+		green	-0.1
+		blue	-0.1
+		alpha	-0.3
+	}
+
+	affector Scaler
+	{
+		rate	2
+	}
+}
+
+
+
+
+// thruster sparks
+
+particle_system thrustersparks
+{
+    material        hoper/thrusterspark
+    particle_width  0.2
+    particle_height 0.2
+    cull_each       false
+    quota           1000
+    billboard_type  oriented_self
+	local_space 	true
+    
+    emitter Point
+    {
+//		width			10
+//		height			20
+        angle           40
+		position		0 0 0
+        emission_rate   20
+        time_to_live    0.5
+        direction       0 -1 0
+        velocity_min    0.5
+        velocity_max    1.5
+        colour_range_start  0.8 0.8 1
+        colour_range_end    1 1 1
+		duration	0
+    }
+
+    // Gravity
+    //affector LinearForce
+    //{
+    //    force_vector      0 -10 0
+    //    force_application add
+    //}
+
+    // Fader
+    affector ColourFader
+    {
+        red -0.5
+        green -0.5
+        blue -0.5
+	//	gamma -0.5
+    }
+}
+
+

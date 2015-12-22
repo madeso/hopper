@@ -1,0 +1,13 @@
+
+material stonearch/stone_arch
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.552941 0.552941 0.392157 1
+		}
+
+	}
+
+}

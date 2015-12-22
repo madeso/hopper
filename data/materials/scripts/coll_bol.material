@@ -1,0 +1,12 @@
+
+material coll_bol/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}

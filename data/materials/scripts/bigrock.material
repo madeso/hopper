@@ -1,0 +1,13 @@
+
+material bigrock/bigrock
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.431373 0.301961 0.290196 1
+		}
+
+	}
+
+}

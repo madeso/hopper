@@ -1,0 +1,26 @@
+
+material testball/red
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 1
+		}
+
+	}
+
+}
+
+material testball/white
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.980392 1 0.917647 1
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+material landingpad/landingpad
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.611765 0.611765 0.611765 1
+			diffuse 0.756863 0.756863 0.756863 1
+		}
+
+	}
+
+}

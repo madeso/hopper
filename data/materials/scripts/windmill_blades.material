@@ -1,0 +1,12 @@
+
+material windmill_blades/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}

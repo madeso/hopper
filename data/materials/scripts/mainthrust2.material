@@ -1,0 +1,19 @@
+
+material mainthrust2/mainthrust
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			// scene_blend alpha_blend
+      	 	depth_write off
+			scene_blend add
+			// diffuse 0.784314 1 1 0
+			emissive 0.1 0.5 0.7 0.5
+
+		}
+
+	}
+
+}

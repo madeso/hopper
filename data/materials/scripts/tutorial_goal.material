@@ -1,0 +1,67 @@
+
+material tutorial_goal/base
+{
+	receive_shadows off
+	technique 0
+	{
+		pass 0
+		{
+			max_lights 1
+		}
+	}
+} 
+
+
+material tutorial_goal/red :tutorial_goal/base
+{
+	technique 0
+	{
+		pass 0
+		{
+			emissive 1 0 0 1
+		}
+
+	}
+
+}
+
+
+material tutorial_goal/green : tutorial_goal/base
+{
+	technique 0
+	{
+		pass 0
+		{
+			emissive 0 1 0 1
+		}
+
+	}
+
+}
+
+material tutorial_goal/translucent_red : tutorial_goal/base
+{
+	technique 0
+	{
+		pass 0
+		{
+			emissive 1 0 0 0.2
+			scene_blend alpha_blend
+		}
+	}
+}
+
+
+material tutorial_goal/translucent_green : tutorial_goal/base
+{
+	technique 0
+	{
+		pass 0
+		{
+			emissive 0 1 0 0.2
+			scene_blend colour_blend
+		}
+	}
+}
+
+

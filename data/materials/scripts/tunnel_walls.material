@@ -1,0 +1,221 @@
+
+material wall/1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture concrete.png
+			}
+		}
+
+	}
+
+}
+
+material wall/2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture bomber_metal1b.jpg
+			}
+		}
+
+	}
+
+}
+
+material wall/3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture factoryiron1.jpg
+			}
+		}
+
+	}
+
+}
+
+material wall/4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture gold_energy.jpg
+			}
+		}
+
+	}
+
+}
+
+material wall/5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture greececobble2.jpg
+			}
+		}
+
+	}
+
+}
+
+material wall/6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture misslescararmblue.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material wall/7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture mosaic1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material wall/8
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture ring_bottoms.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material wall/9
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture rustymetal1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material wall/10
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture shingleroof512.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material wall/11
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture 5sqtunnelceil.jpg
+			}
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,37 @@
+
+material sun/sun1
+{
+  receive_shadows off
+	technique
+	{
+		pass
+		{
+			fog_override true
+			lighting off
+			emissive 1.0 1.0 1.0 
+			scene_blend alpha_blend
+			texture_unit 
+			{
+				texture flare2.png
+			}
+		}
+
+	}
+
+}
+
+material sun/sun2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture flare.png
+			}
+		}
+
+	}
+
+}

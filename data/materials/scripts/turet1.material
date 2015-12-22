@@ -1,0 +1,63 @@
+
+material turet1/base
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material turet1/canon
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material turet1/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+material turet1/head
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metals.png
+			}
+		}
+
+	}
+
+}

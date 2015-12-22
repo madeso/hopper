@@ -1,0 +1,13 @@
+
+material pentagon/pentagon
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 0 1
+		}
+
+	}
+
+}

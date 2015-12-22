@@ -1,0 +1,22 @@
+
+material tractorbeam/image
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend	alpha_blend
+			emissive 1 1 1 1
+			depth_write off
+			texture_unit
+			{
+				texture tractorbeam.png
+			}
+		}
+
+	}
+
+}

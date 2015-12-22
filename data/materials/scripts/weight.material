@@ -1,0 +1,17 @@
+
+material weight/cube1_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metal_bu.png
+			}
+		}
+
+	}
+
+}

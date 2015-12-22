@@ -1,0 +1,20 @@
+
+material vent2/cube1_auv
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			specular 0.3 0.3 0.3 16
+
+			texture_unit
+			{
+				texture_alias 0
+				texture fan.png
+			}
+		}
+
+	}
+
+}

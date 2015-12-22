@@ -1,0 +1,112 @@
+
+// cockpit
+material lander9/cylinder1_auv
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			shading flat
+			diffuse 0.4 0.7 0.9 1
+			specular 1 1 1 1
+		}
+
+	}
+
+}
+
+material lander9/default
+{
+	technique
+	{
+		pass
+		{
+			shading flat
+			diffuse 0.7 0.7 0.7 1
+			specular 1 1 1 1
+			ambient 1 1 1 1
+		}
+
+	}
+
+}
+
+material lander9/hull
+{
+	technique
+	{
+		pass
+		{
+			shading flat
+			diffuse 0.4 0.6 0.8 1
+			specular 1 1 1 1
+			ambient 1 1 1 1
+
+		}
+
+	}
+
+}
+
+material lander9/light
+{
+	technique
+	{
+		pass
+		{
+			shading flat
+			emissive 1 1 1 1
+		}
+
+	}
+
+}
+
+material lander9/metal
+{
+	technique
+	{
+		pass
+		{
+			shading flat
+			diffuse 0.52549 0.623529 0.623529 1
+			ambient 1 1 1 1
+			specular 1 1 1 1
+		}
+
+	}
+
+}
+
+material lander9/metal2
+{
+	technique
+	{
+		pass
+		{
+			shading flat
+			diffuse 0.203922 0.203922 0.25098 1
+			ambient 1 1 1 1
+			specular 1 1 1 1
+		}
+
+	}
+
+}
+
+material lander9/thruster
+{
+	technique
+	{
+		pass
+		{
+			shading flat
+			ambient 0.32549 0.32549 0.32549 1
+			diffuse 0.333333 0.333333 0.333333 1
+			specular 0 0 0 0
+		}
+
+	}
+
+}

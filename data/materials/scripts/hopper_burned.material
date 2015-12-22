@@ -1,0 +1,125 @@
+
+material hopper_burned/cockpit
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 1 1 1
+
+			texture_unit
+			{
+				texture metals_b.png
+			}
+		}
+
+	}
+
+}
+
+material hopper_burned/feet
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 0 1
+
+			texture_unit
+			{
+				texture metals_b.png
+			}
+		}
+
+	}
+
+}
+
+material hopper_burnt/hull1
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0.682353 0.792157 1
+
+			texture_unit
+			{
+				texture metals_b.png
+			}
+		}
+
+	}
+
+}
+
+material hopper_burnt/hull2
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 1 1
+
+			texture_unit
+			{
+				texture metals_b.png
+			}
+		}
+
+	}
+
+}
+
+material hopper_burnt/hull3
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 0.00392157 1
+
+			texture_unit
+			{
+				texture metals_b.png
+			}
+		}
+
+	}
+
+}
+
+material hopper_burnt/lander_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metals_b.png
+			}
+		}
+
+	}
+
+}
+
+material hopper_burnt/light
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture metals_b.png
+			}
+		}
+
+	}
+
+}

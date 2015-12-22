@@ -1,0 +1,66 @@
+
+#ifndef _HOPPERINPUTACTIONS_
+#define _HOPPERINPUTACTIONS_
+
+// these should map the action_id column of the config.input_action table.
+
+enum INPUT_ACTION {
+        IMR_ESCAPE=0,
+        IMR_PAUSE,
+        IMR_MB1,
+        IMR_MB2,
+        IMR_SPACE,
+        IMR_TOGGLE_MODE,
+        IMR_SCREENSHOT,
+        IMR_NEWGAME_LANDING,
+        IMR_NEWGAME_RACING,
+        IMR_NEWGAME_TUTORIAL,
+        IMR_DEBUG_ODE,
+        IMR_DEBUG_BB,
+        IMR_EDIT_SAVE,
+        IMA_YAW,
+        IMA_PITCH,
+        IMA_ROLL,
+        IMA_CAMPITCH,
+        IMP_THRUST,
+        IMP_RECOVER,
+        IMP_MB1,
+        IMP_FORWARD,
+        IMP_BACKWARD,
+        IMP_LEFT,
+        IMP_RIGHT,
+        IMP_EDITOR_ACCEL,
+        IMR_CAMPITCH_UP,
+        IMR_CAMPITCH_DOWN,
+        IMR_FREECAM,
+        IMR_FIRE,
+        IMR_NEWGAME_EDITOR,
+        IMR_NEWGAME_TEST,
+        IM_LAST_INPUTACTION
+};
+
+/*
+
+enum IM_RELEASED_ACTION { IMR_ESCAPE, IMR_PAUSE,
+        IMR_MB1, IMR_MB2, IMR_SPACE,
+        IMR_TOGGLE_MODE,
+        IMR_SCREENSHOT,
+        IMR_NEWGAME_LANDING, IMR_NEWGAME_RACING, IMR_NEWGAME_TUTORIAL,
+        IMR_DEBUG_ODE, IMR_DEBUG_BB, IMR_EDIT_SAVE,
+        IMR_LAST_INPUTACTION
+    };
+
+enum IM_AXIS_ACTION { IMA_YAW, IMA_PITCH, IMA_ROLL, IMA_CAMPITCH,
+        IMA_LAST_INPUTACTION
+    };
+
+enum IM_PRESSED_ACTION { IMP_THRUST, IMP_RECOVER,
+        IMP_MB1,
+        IMP_FORWARD, IMP_BACKWARD, IMP_LEFT, IMP_RIGHT,
+        IMP_EDITOR_ACCEL,
+        IMP_LAST_INPUTACTION,
+
+    };
+*/
+
+#endif

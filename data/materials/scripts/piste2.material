@@ -1,0 +1,77 @@
+
+material piste2/cube1_auv
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			specular 0.5 0.5 0.5 32
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material piste2/red
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 1
+			emissive 1 0 0 1
+			ambient 1 1 1
+			specular 1 1 1 96
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material piste2/green
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 0 1
+			emissive 0 1 0 1
+			ambient 1 1 1
+			specular 1 1 1 96
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material piste2/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+

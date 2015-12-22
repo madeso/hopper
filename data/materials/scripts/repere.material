@@ -1,0 +1,56 @@
+
+material repere/color_000_000_25
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0 1 1
+			emissive 0 0 1 1
+		}
+
+	}
+
+}
+
+material repere/color_000_256_00
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 0 1
+			emissive 0 1 0 1
+		}
+
+	}
+
+}
+
+material repere/color_128_128_12
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.498039 0.498039 0.498039 1
+			emissive 0.498039 0.498039 0.498039 1
+		}
+
+	}
+
+}
+
+material repere/color_256_000_00
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 1
+			emissive 1 0 0 1
+		}
+
+	}
+
+}

@@ -1,0 +1,26 @@
+
+material mine/mine
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.164706 0.164706 0.164706 1
+		}
+
+	}
+
+}
+
+material mine/minespikes
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.745098 0.207843 0.207843 1
+		}
+
+	}
+
+}

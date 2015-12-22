@@ -1,0 +1,13 @@
+
+material rock2/rock2
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.603922 0.556863 0.556863 1
+		}
+
+	}
+
+}

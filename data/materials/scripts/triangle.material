@@ -1,0 +1,13 @@
+
+material triangle/triangle
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0.792157 1 1
+		}
+
+	}
+
+}

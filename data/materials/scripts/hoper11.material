@@ -1,0 +1,372 @@
+
+material hoper11/cockpit
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			// diffuse 1 1 1 1
+			specular 1.0 1.0 1.0 127
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/feet
+{
+	technique
+	{
+		pass
+		{
+			// diffuse 1 1 0 1
+			ambient 1 1 1 1
+			specular 1.0 1.0 1.0 64
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull1
+{
+	technique
+	{
+		pass
+		{
+			// diffuse 0 0.682353 0.792157 1
+			ambient 1 1 1 1
+			specular 0.3 0.3 0.3 16
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull2
+{
+	technique
+	{
+		pass
+		{
+			// diffuse 1 0 1 1
+			ambient 1 1 1 1
+			specular 0.8 0.8 0.8 8
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull3
+{
+	technique
+	{
+		pass
+		{
+			// diffuse 0 1 0.00392157 1
+			ambient 1 1 1 1
+			specular 0.2 0.2 0.2 2
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/lander_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/light
+{
+	technique
+	{
+		pass
+		{
+			emissive 1 1 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+// ============================= frozen material
+
+material hoper11/cockpit_frozen : hoper11/cockpit
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_icy.png
+			}
+		}
+
+	}
+
+}
+
+
+material hoper11/feet_frozen : hoper11/feet
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_icy.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull1_frozen : hoper11/hull1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_icy.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull2_frozen:hoper11/hull2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_icy.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull3_frozen:hoper11/hull3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_icy.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/lander_auv_frozen:hoper11/lander_auv
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+material hoper11/light_frozen:hoper11/light
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_icy.png
+			}
+		}
+
+	}
+
+}
+
+// ============================= burnt material
+
+material hoper11/cockpit_burnt : hoper11/cockpit
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_burnt.png
+			}
+		}
+
+	}
+
+}
+
+
+material hoper11/feet_burnt : hoper11/feet
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_burnt.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull1_burnt : hoper11/hull1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_burnt.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull2_burnt:hoper11/hull2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_burnt.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/hull3_burnt:hoper11/hull3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_burnt.png
+			}
+		}
+
+	}
+
+}
+
+material hoper11/lander_auv_burnt:hoper11/lander_auv
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+material hoper11/light_burnt:hoper11/light
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metals_burnt.png
+			}
+		}
+
+	}
+
+}
+
+

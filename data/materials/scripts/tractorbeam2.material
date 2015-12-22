@@ -1,0 +1,89 @@
+
+material tractorbeam2/cone1_auv
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend	alpha_blend
+			emissive 1 1 1 1
+			depth_write off
+
+			texture_unit
+			{
+				texture tractorbeam2.png
+				scroll_anim 0.1 0
+			}
+		}
+
+	}
+
+}
+
+material tractorbeam2/transparent
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 2
+			polygon_mode	points
+		}
+
+	}
+
+}
+
+material tractorbeam2/active
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend	alpha_blend
+			emissive 1 1 1 1
+			depth_write off
+
+			texture_unit
+			{
+				texture tractorbeam2.png
+				scroll_anim 0.1 0
+			}
+	
+		}
+
+	}
+
+}
+
+
+material tractorbeam2/locked
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend	alpha_blend
+			emissive 1 1 1 1
+			depth_write off
+
+			texture_unit
+			{
+				texture tractorbeam.png
+				scroll_anim 0.1 0
+			}
+	
+		}
+
+	}
+
+}
+
+
+

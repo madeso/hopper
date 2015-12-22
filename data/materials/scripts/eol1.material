@@ -1,0 +1,51 @@
+
+material eol1/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+material eol1/eolrotor
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.258824 0.168627 0.309804 1
+		}
+
+	}
+
+}
+
+material eol1/eoltrunk
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.392157 0.392157 0.486275 1
+		}
+
+	}
+
+}
+
+material eol1/eolwings
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.768628 0.768628 0.819608 1
+		}
+
+	}
+
+}

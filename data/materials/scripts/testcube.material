@@ -1,0 +1,25 @@
+
+material testcube/blue
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0.745098 1 1
+		}
+
+	}
+
+}
+
+material testcube/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}

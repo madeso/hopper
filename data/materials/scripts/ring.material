@@ -1,0 +1,42 @@
+
+material ring/blue
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1
+			specular 0.5 0.5 0.5 8
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}
+
+material ring/green
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 0 1
+			emissive 0 1 0 1
+			ambient 1 1 1
+			specular 0.5 0.5 0.5 16
+
+			texture_unit
+			{
+				texture_alias 0
+				texture metals.png
+			}
+		}
+
+	}
+
+}

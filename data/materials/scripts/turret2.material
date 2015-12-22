@@ -1,0 +1,38 @@
+
+material turret2/black
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0 0 1
+		}
+
+	}
+
+}
+
+material turret2/default
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+material turret2/hull
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.564706 0.564706 0.670588 1
+		}
+
+	}
+
+}

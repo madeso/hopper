@@ -1,0 +1,41 @@
+
+material vent/default
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			specular 0.3 0.3 0.3 8
+
+			texture_unit
+			{
+				texture_alias 0
+				texture fan.png
+			}
+		}
+
+	}
+
+}
+
+material vent/fan
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			specular 0.3 0.3 0.3 16
+
+			texture_unit
+			{
+				texture_alias 0
+				texture fan.png
+				// rotate_anim 60
+			}
+		}
+
+	}
+
+}

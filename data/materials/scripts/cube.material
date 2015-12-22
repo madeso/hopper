@@ -1,0 +1,17 @@
+
+material cube/cube1_auv
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture barrel1.png
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="actor.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="813" topLine="23" />
+	</File>
+	<File name="actor.h" open="0" top="0" tabpos="0">
+		<Cursor position="1183" topLine="39" />
+	</File>
+	<File name="aiship.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="3920" topLine="152" />
+	</File>
+	<File name="aiship.h" open="1" top="0" tabpos="1">
+		<Cursor position="196" topLine="0" />
+	</File>
+	<File name="betagui.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="1968" topLine="0" />
+	</File>
+	<File name="betagui.h" open="0" top="0" tabpos="1">
+		<Cursor position="1863" topLine="60" />
+	</File>
+	<File name="camera.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="2610" topLine="164" />
+	</File>
+	<File name="camera.h" open="0" top="0" tabpos="0">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="clouds.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="793" topLine="0" />
+	</File>
+	<File name="clouds.h" open="0" top="0" tabpos="0">
+		<Cursor position="202" topLine="0" />
+	</File>
+	<File name="controllable.h" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="debugship.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2115" topLine="0" />
+	</File>
+	<File name="debugship.h" open="0" top="0" tabpos="0">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="delay.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="361" topLine="0" />
+	</File>
+	<File name="delay.h" open="0" top="0" tabpos="0">
+		<Cursor position="96" topLine="0" />
+	</File>
+	<File name="dynamic.h" open="0" top="0" tabpos="0">
+		<Cursor position="104" topLine="0" />
+	</File>
+	<File name="emitter.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="216" topLine="0" />
+	</File>
+	<File name="emitter.h" open="0" top="0" tabpos="1">
+		<Cursor position="486" topLine="0" />
+	</File>
+	<File name="fan.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="958" topLine="3" />
+	</File>
+	<File name="fan.h" open="0" top="0" tabpos="9">
+		<Cursor position="225" topLine="0" />
+	</File>
+	<File name="game.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="6662" topLine="179" />
+	</File>
+	<File name="game.h" open="0" top="0" tabpos="7">
+		<Cursor position="1409" topLine="47" />
+	</File>
+	<File name="gameconstants.h" open="0" top="0" tabpos="4">
+		<Cursor position="118" topLine="0" />
+	</File>
+	<File name="gamemanager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="538" topLine="10" />
+	</File>
+	<File name="gamemanager.h" open="0" top="0" tabpos="0">
+		<Cursor position="186" topLine="0" />
+	</File>
+	<File name="gamepart.h" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="gameplaylanding.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="344" topLine="0" />
+	</File>
+	<File name="gameplaylanding.h" open="0" top="0" tabpos="11">
+		<Cursor position="362" topLine="0" />
+	</File>
+	<File name="gameplayracing.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1656" topLine="69" />
+	</File>
+	<File name="gameplayracing.h" open="0" top="0" tabpos="3">
+		<Cursor position="326" topLine="0" />
+	</File>
+	<File name="gameplaytutorial.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1402" topLine="28" />
+	</File>
+	<File name="gameplaytutorial.h" open="0" top="0" tabpos="7">
+		<Cursor position="452" topLine="0" />
+	</File>
+	<File name="ground.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="300" topLine="56" />
+	</File>
+	<File name="ground.h" open="0" top="0" tabpos="9">
+		<Cursor position="180" topLine="0" />
+	</File>
+	<File name="hopedit.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="1301" topLine="41" />
+	</File>
+	<File name="hopedit.h" open="0" top="0" tabpos="0">
+		<Cursor position="1649" topLine="41" />
+	</File>
+	<File name="hoper.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="543" topLine="86" />
+	</File>
+	<File name="inputmanager.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="531" topLine="0" />
+	</File>
+	<File name="inputmanager.h" open="0" top="0" tabpos="0">
+		<Cursor position="1238" topLine="21" />
+	</File>
+	<File name="interfaceeditor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1086" topLine="8" />
+	</File>
+	<File name="interfaceeditor.h" open="0" top="0" tabpos="0">
+		<Cursor position="742" topLine="0" />
+	</File>
+	<File name="interfacegame.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="56" topLine="0" />
+	</File>
+	<File name="interfacegame.h" open="0" top="0" tabpos="0">
+		<Cursor position="1337" topLine="0" />
+	</File>
+	<File name="interfacelevel.h" open="0" top="0" tabpos="0">
+		<Cursor position="124" topLine="0" />
+	</File>
+	<File name="interfacemenu.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1214" topLine="9" />
+	</File>
+	<File name="interfacemenu.h" open="0" top="0" tabpos="0">
+		<Cursor position="416" topLine="0" />
+	</File>
+	<File name="interfacetutorialmessage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1256" topLine="0" />
+	</File>
+	<File name="interfacetutorialmessage.h" open="0" top="0" tabpos="0">
+		<Cursor position="506" topLine="0" />
+	</File>
+	<File name="landingpad.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1347" topLine="20" />
+	</File>
+	<File name="landingpad.h" open="0" top="0" tabpos="0">
+		<Cursor position="151" topLine="0" />
+	</File>
+	<File name="level.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="1089" topLine="24" />
+	</File>
+	<File name="level.h" open="0" top="0" tabpos="11">
+		<Cursor position="188" topLine="51" />
+	</File>
+	<File name="light.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="698" topLine="0" />
+	</File>
+	<File name="light.h" open="0" top="0" tabpos="21">
+		<Cursor position="564" topLine="0" />
+	</File>
+	<File name="logger.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="33" topLine="0" />
+	</File>
+	<File name="logger.h" open="0" top="0" tabpos="0">
+		<Cursor position="582" topLine="0" />
+	</File>
+	<File name="menu.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="5240" topLine="165" />
+	</File>
+	<File name="menu.h" open="1" top="0" tabpos="11">
+		<Cursor position="1490" topLine="27" />
+	</File>
+	<File name="objecttypes.h" open="0" top="0" tabpos="12">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="physactor.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="517" topLine="59" />
+	</File>
+	<File name="physactor.h" open="0" top="0" tabpos="0">
+		<Cursor position="115" topLine="0" />
+	</File>
+	<File name="pointlight.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="636" topLine="6" />
+	</File>
+	<File name="pointlight.h" open="0" top="0" tabpos="0">
+		<Cursor position="122" topLine="0" />
+	</File>
+	<File name="renderable.h" open="0" top="0" tabpos="0">
+		<Cursor position="94" topLine="0" />
+	</File>
+	<File name="resourcemanager.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="2183" topLine="0" />
+	</File>
+	<File name="resourcemanager.h" open="0" top="0" tabpos="14">
+		<Cursor position="163" topLine="0" />
+	</File>
+	<File name="ring.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="759" topLine="0" />
+	</File>
+	<File name="ring.h" open="0" top="0" tabpos="4">
+		<Cursor position="348" topLine="0" />
+	</File>
+	<File name="scenemanager.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="626" topLine="0" />
+	</File>
+	<File name="scenemanager.h" open="0" top="0" tabpos="15">
+		<Cursor position="1254" topLine="1" />
+	</File>
+	<File name="screen.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1260" topLine="0" />
+	</File>
+	<File name="screen.h" open="0" top="0" tabpos="0">
+		<Cursor position="93" topLine="0" />
+	</File>
+	<File name="ship.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="12494" topLine="344" />
+	</File>
+	<File name="ship.h" open="1" top="0" tabpos="4">
+		<Cursor position="835" topLine="12" />
+	</File>
+	<File name="singleton.h" open="0" top="0" tabpos="0">
+		<Cursor position="774" topLine="0" />
+	</File>
+	<File name="sound.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1384" topLine="0" />
+	</File>
+	<File name="sound.h" open="0" top="0" tabpos="4">
+		<Cursor position="532" topLine="0" />
+	</File>
+	<File name="soundmanager.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="177" topLine="0" />
+	</File>
+	<File name="soundmanager.h" open="0" top="0" tabpos="1">
+		<Cursor position="737" topLine="10" />
+	</File>
+	<File name="spotlight.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="610" topLine="0" />
+	</File>
+	<File name="spotlight.h" open="0" top="0" tabpos="19">
+		<Cursor position="637" topLine="0" />
+	</File>
+	<File name="sun.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="210" topLine="0" />
+	</File>
+	<File name="sun.h" open="0" top="0" tabpos="16">
+		<Cursor position="285" topLine="0" />
+	</File>
+	<File name="timemanager.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="549" topLine="0" />
+	</File>
+	<File name="timemanager.h" open="0" top="0" tabpos="0">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="tutorialpartbox.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="680" topLine="0" />
+	</File>
+	<File name="tutorialpartbox.h" open="0" top="0" tabpos="5">
+		<Cursor position="987" topLine="5" />
+	</File>
+	<File name="tutorialpartgravity.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1356" topLine="30" />
+	</File>
+	<File name="tutorialpartgravity.h" open="0" top="0" tabpos="1">
+		<Cursor position="514" topLine="0" />
+	</File>
+	<File name="tutorialpartorientation.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="2031" topLine="41" />
+	</File>
+	<File name="tutorialpartorientation.h" open="0" top="0" tabpos="17">
+		<Cursor position="600" topLine="6" />
+	</File>
+	<File name="tutorialpartpitch.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="664" topLine="0" />
+	</File>
+	<File name="tutorialpartpitch.h" open="0" top="0" tabpos="10">
+		<Cursor position="274" topLine="0" />
+	</File>
+	<File name="tutorialpartroll.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="664" topLine="28" />
+	</File>
+	<File name="tutorialpartroll.h" open="0" top="0" tabpos="2">
+		<Cursor position="432" topLine="0" />
+	</File>
+	<File name="tutpart.h" open="0" top="0" tabpos="4">
+		<Cursor position="539" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

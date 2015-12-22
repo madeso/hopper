@@ -1,0 +1,140 @@
+material hoper/smoke
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture smoke.png
+			}
+		}
+	}
+}
+
+material hoper/flare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture flaretrail.png
+			}
+		}
+	}
+}
+
+
+material hoper/spark
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture flare.png
+			}
+		}
+	}
+}
+
+
+material hoper/thrusterspark
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture thrusterspark.png
+			}
+		}
+	}
+}
+
+
+material hoper/explosion
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			// scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				//texture explode1.png
+				//texture explosion128x128.png
+				texture explosion2.png
+			}
+		}
+	}
+}
+
+
+material hoper/dust
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture dust.png
+			}
+		}
+	}
+}
+
+material hoper/cloud
+{
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			lighting off
+			// scene_blend modulate
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				colour_op alpha_blend
+				texture cloud.png
+				// texture flare.png
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,26 @@
+
+material trianglering/triangle_edges
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.843137 0.431373 1 1
+		}
+
+	}
+
+}
+
+material trianglering/triangle_inner
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.298039 0.603922 0.556863 1
+		}
+
+	}
+
+}

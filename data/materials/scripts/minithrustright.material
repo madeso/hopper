@@ -1,0 +1,18 @@
+
+material minithrustright/default
+{
+	technique
+	{
+		pass
+		{
+			// receive_shadows off
+			// scene_blend alpha_blend
+      	 	//depth_write off
+			scene_blend add
+			// diffuse 0.784314 1 1 0
+			emissive 0.0 0.2 0.3 0.0
+		}
+
+	}
+
+}

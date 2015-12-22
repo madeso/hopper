@@ -1,0 +1,13 @@
+
+material square/square
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 1
+		}
+
+	}
+
+}

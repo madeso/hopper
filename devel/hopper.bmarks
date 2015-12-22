@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="release" />
+	<File name="framework\actor.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="5295" topLine="197" />
+	</File>
+	<File name="framework\actor.h" open="0" top="0" tabpos="18">
+		<Cursor position="1949" topLine="46" />
+	</File>
+	<File name="framework\basewindow.h" open="1" top="0" tabpos="7">
+		<Cursor position="310" topLine="0" />
+	</File>
+	<File name="framework\camera.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2482" topLine="0" />
+	</File>
+	<File name="framework\camera.h" open="0" top="0" tabpos="2">
+		<Cursor position="656" topLine="5" />
+	</File>
+	<File name="framework\collisionmanager.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="241" topLine="0" />
+	</File>
+	<File name="framework\collisionmanager.h" open="0" top="0" tabpos="1">
+		<Cursor position="333" topLine="0" />
+	</File>
+	<File name="framework\configfile.h" open="1" top="0" tabpos="3">
+		<Cursor position="936" topLine="213" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="framework\debugwindow.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="948" topLine="20" />
+	</File>
+	<File name="framework\debugwindow.h" open="0" top="0" tabpos="8">
+		<Cursor position="229" topLine="0" />
+	</File>
+	<File name="framework\delay.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="513" topLine="0" />
+	</File>
+	<File name="framework\delay.h" open="0" top="0" tabpos="7">
+		<Cursor position="297" topLine="0" />
+	</File>
+	<File name="framework\dynagui.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="29777" topLine="1156" />
+		<Book_Marks positions="4074,4078,4078,4078" />
+	</File>
+	<File name="framework\dynagui.h" open="1" top="0" tabpos="1">
+		<Cursor position="2101" topLine="56" />
+	</File>
+	<File name="framework\fpswindow.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="358" topLine="0" />
+	</File>
+	<File name="framework\fpswindow.h" open="1" top="0" tabpos="9">
+		<Cursor position="251" topLine="0" />
+	</File>
+	<File name="framework\gamepausedwindow.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="714" topLine="20" />
+	</File>
+	<File name="framework\gamepausedwindow.h" open="0" top="0" tabpos="2">
+		<Cursor position="369" topLine="0" />
+	</File>
+	<File name="framework\inputactions.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="5529" topLine="205" />
+	</File>
+	<File name="framework\inputactions.h" open="0" top="0" tabpos="5">
+		<Cursor position="1018" topLine="8" />
+	</File>
+	<File name="framework\inputconfiguration.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="3545" topLine="133" />
+	</File>
+	<File name="framework\inputconfiguration.h" open="0" top="0" tabpos="7">
+		<Cursor position="431" topLine="0" />
+	</File>
+	<File name="framework\inputconfigurationmanager.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1842" topLine="10" />
+	</File>
+	<File name="framework\inputconfigurationmanager.h" open="0" top="0" tabpos="15">
+		<Cursor position="479" topLine="0" />
+	</File>
+	<File name="framework\inputconfigwindow.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="11830" topLine="407" />
+		<Book_Marks positions="9556" />
+	</File>
+	<File name="framework\inputconfigwindow.h" open="0" top="0" tabpos="3">
+		<Cursor position="658" topLine="1" />
+	</File>
+	<File name="framework\inputmanager.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="8581" topLine="324" />
+	</File>
+	<File name="framework\inputmanager.h" open="1" top="0" tabpos="5">
+		<Cursor position="2328" topLine="19" />
+	</File>
+	<File name="framework\light.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="2973" topLine="76" />
+	</File>
+	<File name="framework\light.h" open="0" top="0" tabpos="5">
+		<Cursor position="1399" topLine="13" />
+	</File>
+	<File name="framework\particleemitter.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="63" topLine="0" />
+	</File>
+	<File name="framework\particleemitter.h" open="0" top="0" tabpos="10">
+		<Cursor position="232" topLine="0" />
+	</File>
+	<File name="framework\particleemittermanager.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="2724" topLine="15" />
+	</File>
+	<File name="framework\particleemittermanager.h" open="0" top="0" tabpos="5">
+		<Cursor position="1155" topLine="0" />
+	</File>
+	<File name="framework\particleemitterpool.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="3067" topLine="0" />
+		<BrowseMarks positions="1604,131" />
+		<Book_Marks positions="0" />
+	</File>
+	<File name="framework\particleemitterpool.h" open="0" top="0" tabpos="7">
+		<Cursor position="630" topLine="0" />
+	</File>
+	<File name="framework\physicobject.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5014" topLine="162" />
+		<Book_Marks positions="7520,7471" />
+	</File>
+	<File name="framework\physicobject.h" open="0" top="0" tabpos="3">
+		<Cursor position="2513" topLine="81" />
+	</File>
+	<File name="framework\physicsmanager.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="3685" topLine="86" />
+	</File>
+	<File name="framework\physicsmanager.h" open="0" top="0" tabpos="0">
+		<Cursor position="984" topLine="0" />
+	</File>
+	<File name="framework\resourcemanager.cpp" open="0" top="0" tabpos="22">
+		<Cursor position="765" topLine="0" />
+	</File>
+	<File name="framework\resourcemanager.h" open="0" top="0" tabpos="0">
+		<Cursor position="515" topLine="0" />
+	</File>
+	<File name="framework\scenemanager.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="699" topLine="0" />
+	</File>
+	<File name="framework\scenemanager.h" open="0" top="0" tabpos="0">
+		<Cursor position="178" topLine="0" />
+	</File>
+	<File name="framework\screen.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="3821" topLine="108" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="framework\screen.h" open="0" top="0" tabpos="0">
+		<Cursor position="461" topLine="0" />
+	</File>
+	<File name="framework\singleton.h" open="1" top="0" tabpos="0">
+		<Cursor position="210" topLine="0" />
+	</File>
+	<File name="framework\sound.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="2838" topLine="62" />
+		<BrowseMarks positions="691" />
+	</File>
+	<File name="framework\sound.h" open="0" top="0" tabpos="13">
+		<Cursor position="1230" topLine="22" />
+	</File>
+	<File name="framework\soundconfigwindow.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="1192" topLine="27" />
+	</File>
+	<File name="framework\soundconfigwindow.h" open="0" top="0" tabpos="0">
+		<Cursor position="409" topLine="0" />
+	</File>
+	<File name="framework\soundmanager.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="3464" topLine="114" />
+	</File>
+	<File name="framework\soundmanager.h" open="1" top="0" tabpos="6">
+		<Cursor position="611" topLine="9" />
+	</File>
+	<File name="framework\timemanager.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="909" topLine="6" />
+	</File>
+	<File name="framework\timemanager.h" open="0" top="0" tabpos="11">
+		<Cursor position="560" topLine="0" />
+	</File>
+	<File name="framework\videoconfigwindow.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="1631" topLine="72" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="framework\videoconfigwindow.h" open="0" top="0" tabpos="1">
+		<Cursor position="768" topLine="0" />
+	</File>
+	<File name="game\AIShipControllers.h" open="1" top="0" tabpos="18">
+		<Cursor position="745" topLine="0" />
+	</File>
+	<File name="game\CameraControllers.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="2143" topLine="71" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="game\CameraControllers.h" open="1" top="1" tabpos="6">
+		<Cursor position="1655" topLine="49" />
+	</File>
+	<File name="game\CountDown.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1929" topLine="0" />
+	</File>
+	<File name="game\CountDown.h" open="0" top="0" tabpos="8">
+		<Cursor position="295" topLine="0" />
+	</File>
+	<File name="game\GameSequenceManager.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1821" topLine="0" />
+	</File>
+	<File name="game\GameSequenceManager.h" open="1" top="0" tabpos="3">
+		<Cursor position="367" topLine="0" />
+	</File>
+	<File name="game\GameSequences.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="2012" topLine="150" />
+	</File>
+	<File name="game\GameSequences.h" open="1" top="0" tabpos="3">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="game\NewGameWindow.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="1332" topLine="0" />
+	</File>
+	<File name="game\NewGameWindow.h" open="1" top="0" tabpos="1">
+		<Cursor position="476" topLine="0" />
+	</File>
+	<File name="game\PlayerControlledShipControllers.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="1983" topLine="37" />
+	</File>
+	<File name="game\PlayerControlledShipControllers.h" open="0" top="0" tabpos="18">
+		<Cursor position="555" topLine="0" />
+	</File>
+	<File name="game\PoweredByWindow.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="405" topLine="11" />
+	</File>
+	<File name="game\PoweredByWindow.h" open="1" top="0" tabpos="7">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="game\TractorBeam.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="4756" topLine="223" />
+	</File>
+	<File name="game\TractorBeam.h" open="0" top="0" tabpos="1">
+		<Cursor position="1094" topLine="6" />
+	</File>
+	<File name="game\astrum.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="539" topLine="0" />
+	</File>
+	<File name="game\astrum.h" open="0" top="0" tabpos="1">
+		<Cursor position="629" topLine="0" />
+	</File>
+	<File name="game\clouds.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="568" topLine="6" />
+	</File>
+	<File name="game\clouds.h" open="0" top="0" tabpos="0">
+		<Cursor position="65" topLine="0" />
+	</File>
+	<File name="game\dialogbox.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="704" topLine="0" />
+	</File>
+	<File name="game\dialogbox.h" open="0" top="0" tabpos="7">
+		<Cursor position="375" topLine="0" />
+	</File>
+	<File name="game\directionarrowwindow.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="864" topLine="0" />
+	</File>
+	<File name="game\directionarrowwindow.h" open="1" top="0" tabpos="0">
+		<Cursor position="70" topLine="0" />
+	</File>
+	<File name="game\editorwindows.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="5317" topLine="435" />
+	</File>
+	<File name="game\editorwindows.h" open="0" top="0" tabpos="8">
+		<Cursor position="4054" topLine="160" />
+	</File>
+	<File name="game\explosion.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="1589" topLine="0" />
+	</File>
+	<File name="game\explosion.h" open="0" top="0" tabpos="11">
+		<Cursor position="265" topLine="19" />
+	</File>
+	<File name="game\explosionmanager.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="1051" topLine="0" />
+	</File>
+	<File name="game\explosionmanager.h" open="0" top="0" tabpos="13">
+		<Cursor position="445" topLine="0" />
+	</File>
+	<File name="game\fan.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="599" topLine="0" />
+	</File>
+	<File name="game\fan.h" open="0" top="0" tabpos="1">
+		<Cursor position="389" topLine="0" />
+	</File>
+	<File name="game\game.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="5308" topLine="182" />
+		<BrowseMarks positions="413" />
+		<Book_Marks positions="0,6647,891,848,848,811,873,6618,873,813" />
+	</File>
+	<File name="game\game.h" open="0" top="0" tabpos="3">
+		<Cursor position="302" topLine="137" />
+	</File>
+	<File name="game\gameconstants.h" open="1" top="0" tabpos="11">
+		<Cursor position="424" topLine="0" />
+	</File>
+	<File name="game\gamemanager.cpp" open="0" top="0" tabpos="23">
+		<Cursor position="502" topLine="0" />
+	</File>
+	<File name="game\gamemanager.h" open="0" top="0" tabpos="10">
+		<Cursor position="375" topLine="0" />
+	</File>
+	<File name="game\gamemessagewindow.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="923" topLine="20" />
+	</File>
+	<File name="game\gamemessagewindow.h" open="0" top="0" tabpos="0">
+		<Cursor position="82" topLine="1" />
+	</File>
+	<File name="game\gamepart.h" open="0" top="0" tabpos="6">
+		<Cursor position="320" topLine="0" />
+	</File>
+	<File name="game\gameplaylanding.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="177" topLine="0" />
+	</File>
+	<File name="game\gameplaylanding.h" open="0" top="0" tabpos="12">
+		<Cursor position="129" topLine="0" />
+	</File>
+	<File name="game\gameplayracing.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="2812" topLine="72" />
+	</File>
+	<File name="game\gameplayracing.h" open="0" top="0" tabpos="6">
+		<Cursor position="158" topLine="0" />
+	</File>
+	<File name="game\gameplaytest.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="444" topLine="0" />
+	</File>
+	<File name="game\gameplaytest.h" open="0" top="0" tabpos="19">
+		<Cursor position="98" topLine="0" />
+	</File>
+	<File name="game\gameplaytutorial.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="2553" topLine="100" />
+	</File>
+	<File name="game\gameplaytutorial.h" open="0" top="0" tabpos="14">
+		<Cursor position="1145" topLine="34" />
+	</File>
+	<File name="game\ground.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="3764" topLine="108" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="game\ground.h" open="0" top="0" tabpos="16">
+		<Cursor position="773" topLine="2" />
+	</File>
+	<File name="game\hopper.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="2706" topLine="0" />
+	</File>
+	<File name="game\hoppercollisionmanager.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="5788" topLine="114" />
+	</File>
+	<File name="game\hoppercollisionmanager.h" open="0" top="0" tabpos="9">
+		<Cursor position="839" topLine="0" />
+	</File>
+	<File name="game\hoppercollisionmaterials.h" open="0" top="0" tabpos="5">
+		<Cursor position="185" topLine="0" />
+	</File>
+	<File name="game\hopperinputactions.h" open="0" top="0" tabpos="7">
+		<Cursor position="910" topLine="0" />
+	</File>
+	<File name="game\hopperparticles.h" open="0" top="0" tabpos="15">
+		<Cursor position="293" topLine="0" />
+	</File>
+	<File name="game\hoppersounds.h" open="0" top="0" tabpos="21">
+		<Cursor position="792" topLine="0" />
+	</File>
+	<File name="game\intro.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2241" topLine="51" />
+	</File>
+	<File name="game\intro.h" open="0" top="0" tabpos="0">
+		<Cursor position="1165" topLine="26" />
+	</File>
+	<File name="game\landingpad.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="1370" topLine="3" />
+	</File>
+	<File name="game\landingpad.h" open="0" top="0" tabpos="0">
+		<Cursor position="681" topLine="0" />
+	</File>
+	<File name="game\level.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="17986" topLine="0" />
+		<Book_Marks positions="14252,14238,14273" />
+	</File>
+	<File name="game\level.h" open="0" top="0" tabpos="10">
+		<Cursor position="2695" topLine="106" />
+	</File>
+	<File name="game\leveleditor.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="15069" topLine="561" />
+		<Book_Marks positions="5349,5350,17590" />
+	</File>
+	<File name="game\leveleditor.h" open="0" top="0" tabpos="3">
+		<Cursor position="2716" topLine="93" />
+	</File>
+	<File name="game\levelinfo.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="1396" topLine="31" />
+	</File>
+	<File name="game\levelinfo.h" open="1" top="0" tabpos="13">
+		<Cursor position="67" topLine="0" />
+	</File>
+	<File name="game\menu.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="3684" topLine="129" />
+		<Book_Marks positions="6226,5852,6373,6037" />
+	</File>
+	<File name="game\menu.h" open="0" top="0" tabpos="3">
+		<Cursor position="1313" topLine="27" />
+	</File>
+	<File name="game\mine.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="749" topLine="0" />
+	</File>
+	<File name="game\mine.h" open="1" top="0" tabpos="1">
+		<Cursor position="232" topLine="0" />
+	</File>
+	<File name="game\objecttypes.h" open="0" top="0" tabpos="7">
+		<Cursor position="544" topLine="0" />
+	</File>
+	<File name="game\optionmanager.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="800" topLine="71" />
+	</File>
+	<File name="game\optionmanager.h" open="0" top="0" tabpos="3">
+		<Cursor position="1153" topLine="0" />
+	</File>
+	<File name="game\optionswindow.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="588" topLine="0" />
+	</File>
+	<File name="game\optionswindow.h" open="0" top="0" tabpos="0">
+		<Cursor position="58" topLine="0" />
+	</File>
+	<File name="game\positionalthruster.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1899" topLine="0" />
+	</File>
+	<File name="game\positionalthruster.h" open="0" top="0" tabpos="5">
+		<Cursor position="628" topLine="0" />
+	</File>
+	<File name="game\projectilemanager.cpp" open="0" top="0" tabpos="17">
+		<Cursor position="588" topLine="18" />
+	</File>
+	<File name="game\projectilemanager.h" open="0" top="0" tabpos="11">
+		<Cursor position="261" topLine="0" />
+	</File>
+	<File name="game\projectiles.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="936" topLine="15" />
+	</File>
+	<File name="game\projectiles.h" open="0" top="0" tabpos="8">
+		<Cursor position="642" topLine="6" />
+	</File>
+	<File name="game\ring.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="game\ship.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="87" topLine="0" />
+	</File>
+	<File name="game\ship.h" open="0" top="0" tabpos="8">
+		<Cursor position="2310" topLine="88" />
+	</File>
+	<File name="game\shipcontroller.h" open="0" top="0" tabpos="1">
+		<Cursor position="114" topLine="0" />
+	</File>
+	<File name="game\shiporientationwindow.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="974" topLine="0" />
+	</File>
+	<File name="game\shiporientationwindow.h" open="0" top="0" tabpos="0">
+		<Cursor position="296" topLine="0" />
+	</File>
+	<File name="game\shipstatwindow.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="410" topLine="0" />
+	</File>
+	<File name="game\shipstatwindow.h" open="0" top="0" tabpos="0">
+		<Cursor position="381" topLine="0" />
+	</File>
+	<File name="game\splash.h" open="0" top="0" tabpos="0">
+		<Cursor position="165" topLine="0" />
+	</File>
+	<File name="game\sun.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="1410" topLine="1" />
+	</File>
+	<File name="game\sun.h" open="0" top="0" tabpos="6">
+		<Cursor position="357" topLine="0" />
+	</File>
+	<File name="game\thruster.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1957" topLine="0" />
+	</File>
+	<File name="game\thruster.h" open="0" top="0" tabpos="3">
+		<Cursor position="683" topLine="0" />
+	</File>
+	<File name="game\triggerbox.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="2551" topLine="89" />
+	</File>
+	<File name="game\triggerbox.h" open="1" top="0" tabpos="3">
+		<Cursor position="1655" topLine="45" />
+	</File>
+	<File name="game\triggerboxmanager.cpp" open="0" top="0" tabpos="31">
+		<Cursor position="371" topLine="0" />
+	</File>
+	<File name="game\triggerboxmanager.h" open="1" top="0" tabpos="30">
+		<Cursor position="412" topLine="0" />
+	</File>
+	<File name="game\tunnels.cpp" open="0" top="0" tabpos="23">
+		<Cursor position="178" topLine="0" />
+	</File>
+	<File name="game\tunnels.h" open="0" top="0" tabpos="6">
+		<Cursor position="810" topLine="0" />
+	</File>
+	<File name="game\turret.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="2338" topLine="3" />
+	</File>
+	<File name="game\turret.h" open="0" top="0" tabpos="2">
+		<Cursor position="546" topLine="0" />
+	</File>
+	<File name="game\tutorialpartbox.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="502" topLine="0" />
+	</File>
+	<File name="game\tutorialpartbox.h" open="1" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="game\tutorialpartgravity.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="471" topLine="0" />
+	</File>
+	<File name="game\tutorialpartorientation.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3693" topLine="12" />
+	</File>
+	<File name="game\tutorialpartorientation.h" open="0" top="0" tabpos="0">
+		<Cursor position="112" topLine="7" />
+	</File>
+	<File name="game\tutorialpartpitch.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="396" topLine="0" />
+	</File>
+	<File name="game\tutorialpartroll.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="365" topLine="0" />
+	</File>
+	<File name="game\tutorialpartroll.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="game\tutpart.h" open="1" top="0" tabpos="0">
+		<Cursor position="158" topLine="0" />
+	</File>
+	<File name="game\version.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="game\windmill.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1077" topLine="13" />
+	</File>
+	<File name="game\windmill.h" open="0" top="0" tabpos="5">
+		<Cursor position="497" topLine="0" />
+	</File>
+	<File name="hopper.rc" open="0" top="0" tabpos="1">
+		<Cursor position="42" topLine="0" />
+	</File>
+</BrowseTracker_layout_file>
