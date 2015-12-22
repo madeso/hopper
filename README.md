@@ -45,7 +45,15 @@ marc.p.michel@gmail.com
 
 https://hopp3r.wordpress.com/
 
-6. Screenshots:
+6. Youtube videos:
+---------------
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8V0-Cf-CuXs/0.jpg)](http://www.youtube.com/watch?v=8V0-Cf-CuXs)
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/_abzGE87oVs/0.jpg)](http://www.youtube.com/watch?v=_abzGE87oVs)
+
+
+7. Screenshots:
 ---------------
 
 ![screenshot](screenshots/shot02272009_102943131.png)
@@ -55,9 +63,3 @@ https://hopp3r.wordpress.com/
 ![screenshot](screenshots/shot02272009_103140847.png)
 ![screenshot](screenshots/shot03042009_160124119.png)
 
-7. Youtube:
----------------
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8V0-Cf-CuXs/0.jpg)](http://www.youtube.com/watch?v=8V0-Cf-CuXs)
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/_abzGE87oVs/0.jpg)](http://www.youtube.com/watch?v=_abzGE87oVs)
