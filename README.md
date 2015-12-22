@@ -43,3 +43,21 @@ WTFPL
 ------------
 marc.p.michel@gmail.com
 
+https://hopp3r.wordpress.com/
+
+6. Screenshots:
+---------------
+
+![screenshot](screenshots/shot02272009_102943131.png)
+![screenshot](screenshots/shot02272009_102947979.png)
+![screenshot](screenshots/shot02272009_102958477.png)
+![screenshot](screenshots/shot02272009_103135048.png)
+![screenshot](screenshots/shot02272009_103140847.png)
+![screenshot](screenshots/shot03042009_160124119.png)
+
+7. Youtube:
+---------------
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/8V0-Cf-CuXs/0.jpg)](http://www.youtube.com/watch?v=8V0-Cf-CuXs)
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/_abzGE87oVs/0.jpg)](http://www.youtube.com/watch?v=_abzGE87oVs)
